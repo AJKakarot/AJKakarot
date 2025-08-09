@@ -174,7 +174,7 @@ export const DATA = {
       video: "https://player.vimeo.com/video/1103520256?background=1&autoplay=1&loop=1&muted=1",
     },
     {
-      title: "Safire",
+      title: "Safire - AI Harassment Detection Platform",
       href: "https://safire-five.vercel.app",
       dates: "Jan 2025 - Feb 2025",
       active: true,
@@ -203,7 +203,7 @@ export const DATA = {
     {
       title: "ReachRight - AI Cold Email Assistant",
       href: "https://reach-right-person.vercel.app",
-      dates: "April 2023 - September 2023",
+      dates: "June 2025",
       active: true,
       description:
         "Built to solve the biggest bottleneck in cold outreach: slow, manual personalization and repetitive prompting. I engineered a full-stack system where users set up their professional profile once. The Node.js backend then synthesizes this saved context with recipient details, using a sophisticated prompt strategy to have the Google Gemini API generate hyper-personalized emails instantly, making outreach significantly faster.",
@@ -226,33 +226,30 @@ export const DATA = {
       video: "https://player.vimeo.com/video/1108707330?background=1&autoplay=1&loop=1&muted=1",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "CrackIt - AI-Driven Interview Platform",
+      href: "https://dub.sh/jobrush",
+      dates: "April 2025",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Launched a data-driven interview platform that serves real questions ranked by frequency from over 200 top tech companies. Its standout feature is a generative AI 'Problem Solver,' engineered to give users contextual, non-spoiler hints to guide their learning on difficult problems. The responsive UI, built with Tailwind CSS and Framer Motion, provides a seamless experience for data exploration and progress tracking.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+    "React", "TypeScript", "Node.js", "Generative AI", "Tailwind CSS", "Framer Motion",
+  ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://dub.sh/jobrush",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/divyansharma001/Crackit",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "https://player.vimeo.com/video/1108710945?background=1&autoplay=1&loop=1&muted=1",
     },
   ],
   hackathons: [
