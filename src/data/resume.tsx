@@ -144,7 +144,7 @@ export const DATA = {
     },
     {
       school: "Geek Room MSIT Chapter",
-      href: "#",
+      href: "https://www.geekroom.in/",
       degree: "Head of Development (Community of 25,000+)",
       logoUrl: "/geekroom.png", // TODO: Add logo
       start: "Community Leadership",
