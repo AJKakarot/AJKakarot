@@ -8,7 +8,7 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/New+Delhi",
   description:
-    "Software Engineer & 8x Hackathon Winner/Finalist shipping products used by 1,000+ people daily. Expert in Full-Stack AI, AWS, and Next.js.",
+    "Software Engineer & 8x Hackathon Winner/Finalist shipping products used by 1,000+ people daily. Expert in Full Stack, AWS, and GenAI.",
   summary:
     "I build products people use. I've scaled apps to 1,000+ daily users, delivered 10+ freelance projects, and won 8 national hackathons. My proudest achievement is securing 1st place in a 15,000+ developer competition by building a full-stack AI platform in 48 hours. I turn ambitious ideas into reality using GenAI, Next.js, and AWS.",
   avatarUrl: "/me.png",
@@ -153,65 +153,53 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Supereddit - AI Reddit Automation Platform",
+      href: "http://supereddit.com",
+      dates: "June 2025 - July 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Built a multi-tenant SaaS for Reddit automation with an AI content engine, smart scheduling, and real-time keyword tracking. Powered by a producer-consumer backend for async processing and a Next.js dashboard with live analytics and updates.",
+       technologies: [
+        "Next.js", "Node.js", "TypeScript", "Prisma", "PostgreSQL", "AWS", "Docker", "GenAI (LangChain)", "WebSockets", "Recharts",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://supereddit.com",
           icon: <Icons.globe className="size-3" />,
         },
+       
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "https://player.vimeo.com/video/1103520256?background=1&autoplay=1&loop=1&muted=1",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Safire",
+      href: "https://safire-five.vercel.app",
+      dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Created a real-time AI platform that spots and tackles online harassment, with automated evidence capture and an easy-to-use dashboard for live insights.",
+           technologies: [
+        "Next.js", "RAG", "Redis", "Docker", "Node.js", "MongoDB", "Puppeteer", "Prisma",
       ],
+
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://safire-five.vercel.app",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
+        },{
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/divyansharma001/Safire",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video:
+        "https://player.vimeo.com/video/1059208124?background=1&autoplay=1&loop=1&muted=1",
     },
+    
     {
       title: "llm.report",
       href: "https://llm.report",
