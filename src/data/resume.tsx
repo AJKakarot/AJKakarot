@@ -8,9 +8,9 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/New+Delhi",
   description:
-    "Software Engineer & 8x Hackathon Winner/Finalist shipping products used by 1,000+ people daily. Expert in Full Stack, AWS, and GenAI.",
+    "Software Engineer scaling products to lakhs of users. 8x National Hackathon Winner / Finalist. Expert in Full Stack, AWS, and GenAI.",
   summary:
-    "I build products people use. I've scaled apps to 1,000+ daily users, delivered 10+ freelance projects, and won 8 national hackathons. My proudest achievement is securing 1st place in a 15,000+ developer competition by building a full-stack AI platform in 48 hours. I turn ambitious ideas into reality using GenAI, Next.js, and AWS.",
+    "I'm a Founding Engineer driven by building products that scale to lakhs of users. I've shipped over 10 commercial projects and have consistently placed as a winner or finalist in 8 national hackathons, a testament to my ability to deliver creative, high-impact solutions under extreme pressure. My mission is to architect scalable, production-grade software from ambitious ideas.",
   avatarUrl: "/me.png",
   skills: [
     // Core Stack
