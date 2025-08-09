@@ -201,37 +201,29 @@ export const DATA = {
     },
     
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "ReachRight - AI Cold Email Assistant",
+      href: "https://reach-right-person.vercel.app",
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+        "Built to solve the biggest bottleneck in cold outreach: slow, manual personalization and repetitive prompting. I engineered a full-stack system where users set up their professional profile once. The Node.js backend then synthesizes this saved context with recipient details, using a sophisticated prompt strategy to have the Google Gemini API generate hyper-personalized emails instantly, making outreach significantly faster.",
+     technologies: [
+    "Next.js", "Node.js", "TypeScript", "Google Gemini API",
+  ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://reach-right-person.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/divyansharma001/ReachRight",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://player.vimeo.com/video/1108707330?background=1&autoplay=1&loop=1&muted=1",
     },
     {
       title: "Automatic Chat",
