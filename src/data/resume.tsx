@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer & 8x Hackathon Winner/Finalist shipping products used by 1,000+ people daily. Expert in Full-Stack AI, AWS, and Next.js.",
   summary:
     "I build products people use. I've scaled apps to 1,000+ daily users, delivered 10+ freelance projects, and won 8 national hackathons. My proudest achievement is securing 1st place in a 15,000+ developer competition by building a full-stack AI platform in 48 hours. I turn ambitious ideas into reality using GenAI, Next.js, and AWS.",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/me.png",
   skills: [
     // Core Stack
     "Next.js",
@@ -135,36 +135,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "Maharaja Surajmal Institute of Technology",
+      href: "http://msit.in/",
+      degree: "B.Tech, Information Technology (CGPA: 8.8)",
+      logoUrl: "/msit.png", // TODO: Add logo
       start: "2023",
-      end: "2024",
+      end: "2027",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "Geek Room MSIT Chapter",
+      href: "#",
+      degree: "Head of Development (Community of 25,000+)",
+      logoUrl: "/geekroom.png", // TODO: Add logo
+      start: "Community Leadership",
+      end: "",
     },
   ],
   projects: [
