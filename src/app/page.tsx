@@ -159,18 +159,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons and More Projects
+                 Independent Ventures & Wins
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I love building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                 I&apos;ve always loved the challenge of building and shipping fast, and for me, hackathons were the ultimate test. Being in over 20 national competitions taught me what it truly takes to turn a big idea into a real, working product over a single weekend. You learn to make smart calls on the fly and just focus on what&apos;s essential to get it done. That&apos;s how I learned to deliver under pressure, which led to 8 placements as a winner or finalist.
                 </p>
               </div>
             </div>

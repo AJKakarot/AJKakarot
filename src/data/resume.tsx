@@ -147,8 +147,8 @@ export const DATA = {
       href: "https://www.geekroom.in/",
       degree: "Head of Development (Community of 25,000+)",
       logoUrl: "/geekroom.png", // TODO: Add logo
-      start: "Community Leadership",
-      end: "",
+      start: "Sept 2023",
+      end: "Present",
     },
   ],
   projects: [
