@@ -210,15 +210,28 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Feel free to{" "}
+                <Link
+                  href={DATA.contact.social.LinkedIn.url}
+                  className="text-blue-600 hover:underline"
+                >
+                  DM me on LinkedIn
+                </Link>{" "}
+                or{" "}
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  Twitter
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                with a direct question, or{" "}
+                <Link
+                  href={DATA.contact.social.calendar.url}
+                  className="text-green-600 hover:underline"
+                >
+                  book a meeting
+                </Link>{" "}
+                if you prefer a scheduled call. I&apos;ll respond whenever I can, but I do ignore all soliciting.
               </p>
             </div>
           </BlurFade>

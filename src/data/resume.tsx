@@ -364,7 +364,7 @@ export const DATA = {
         "",
       links: [
         {
-          title: "Organization",
+          title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/divyansharma001/WhisperLink",
         },
@@ -381,7 +381,7 @@ export const DATA = {
       mlh: "",
       links: [
         {
-          title: "Streamer Source",
+          title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/divyansharma001/hive",
         },
