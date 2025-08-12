@@ -1,0 +1,98 @@
+---
+title: "How to pick the right database for your next product?"
+publishedAt: "2025-6-22"
+summary: "Guide to pick the right database for your next project"
+---
+
+You’re starting a new project. The architecture is on the whiteboard, the API endpoints are sketched out, but a crucial question looms: **Which database should we use?**
+
+The debate often devolves into a tribal showdown: `SQL` vs. `NoSQL`. But it’s not a fight, and you don’t need to pick a side.
+
+A database is a specialized tool designed to solve a particular problem exceptionally well. The secret is to understand your problem first, then find the tool that fits. Let’s break down how to do that.
+
+## Debunking the Great Scaling Myth
+
+A common misconception drives developers to NoSQL:
+> “Relational databases don’t scale.”
+
+This isn’t true. The reason non-relational databases often scale more “easily” out of the box is because they make specific trade-offs:
+
+- **No Relational Constraints**: They typically don’t enforce foreign key relationships across the network, which can be slow and complex in a distributed system.
+- **Designed for Sharding**: Their data models are often designed to be easily sharded (split horizontally across multiple servers) without complex logic.
+
+Guess what? If you relax these same constraints on a relational database, you can make it scale massively, too. This is the strategy behind a technology like `Vitess`, which powers YouTube’s database. It involves:
+
+- Removing Foreign Key Checks (letting the application handle data integrity).
+- Avoiding Cross-Shard Transactions (keeping transactions limited to a single shard).
+- Manual or Application-Level Sharding.
+
+So, the difference isn’t that one scales and the other doesn’t. It’s about the trade-offs you’re willing to make. Every database has unique properties and guarantees. Your job is to find the one whose guarantees match your needs.
+
+## The Four Key Questions to Ask Before Choosing
+
+Don’t jump to a conclusion. Instead of starting with “Should I use Mongo or Postgres?”, start by answering these four questions about your product’s needs.
+
+1.  **What does my data look like? (Data Model)**  
+    Is your data highly structured, like a spreadsheet with clear rows and columns (user profiles, financial records)? Or is it semi-structured, like a nested JSON object (product catalogues, article content)? Or is it a network of connections (a social graph)?
+
+2.  **How will I access my data? (Query Patterns)**  
+    Will you be running complex queries with many joins and aggregations (e.g., “Find all users in North America who bought product X in the last 30 days and have spent over $500”)? Or will you be doing simple key lookups (e.g., “Get user profile for `user_id: 123`”)?
+
+3.  **What are my performance and scale needs? (Throughput & Volume)**  
+    Will all your data fit on a single, powerful server for the foreseeable future? Or do you expect terabytes of data that must be distributed across many machines? Do you need lightning-fast reads, or are you writing data constantly?
+
+4.  **What guarantees do I need? (Consistency & Availability)**  
+    Is data correctness absolutely critical? If a user transfers money, it must be reflected accurately and instantly (Strong Consistency / `ACID`). Or is it acceptable for some data to be slightly out-of-date for a few moments in exchange for the system always being online (Eventual Consistency / Availability)?
+
+## A Map to the Database Landscape
+
+Once you’ve answered the questions above, you can map your needs to the right category of database.
+
+### Go with a Relational (SQL) Database if…
+*(Examples: `PostgreSQL`, `MySQL`, `MariaDB`)*
+
+- Your data is structured, and relational integrity is important.
+- You need to perform complex queries, joins, and aggregations.
+- You require `ACID` guarantees for transactions (atomicity, consistency, isolation, durability).
+- Your data can comfortably fit on a single node (for now).
+
+**Choose this when:** Building financial systems, e-commerce backends, or any system where data correctness is paramount. `PostgreSQL` is a fantastic, feature-rich starting point for most applications.
+
+### Go with a Document Database if…
+*(Examples: `MongoDB`, `Couchbase`)*
+
+- Your data model is a semi-structured document (e.g., JSON) and is likely to evolve.
+- Your queries are usually based on a single document or a small set of documents.
+- You need high write throughput and want to scale out easily by adding more servers.
+- You want flexibility. This is often seen as a good “future-proof” option for startups where the product may pivot.
+
+**Choose this when:** Building content management systems, user profile stores, or mobile app backends where schema flexibility is a plus.
+
+### Go with a Key-Value Store if…
+*(Examples: `Redis`, `Amazon DynamoDB`, `Riak`)*
+
+- Your access pattern is overwhelmingly simple key lookups (`get`, `set`, `delete`).
+- You need extreme speed (in-memory databases like `Redis`) or massive, predictable scale (`DynamoDB`).
+- Your data doesn’t have complex relationships.
+
+**Choose this when:** Caching, session management, real-time leaderboards, or serving user-specific data at massive scale.
+
+### Go with a Graph Database if…
+*(Example: `Neo4j`)*
+
+- The relationships between your data points are as important as the data itself.
+- You need to run sophisticated graph algorithms (e.g., finding the shortest path, identifying communities).
+- Your queries involve traversing connections (“find friends of friends who like X”).
+
+**Choose this when:** Building social networks, fraud detection systems, or recommendation engines.
+
+## Conclusion: It’s a Design Decision, Not a Tech War
+
+Choosing a database isn’t about finding the “best” one; it’s about making a conscious design decision. Don’t let hype or misconceptions guide you.
+
+Start with the four questions, understand your problem deeply, and pick the tool whose strengths align with your needs. Get it right, and your database will feel less like a constraint and more like a superpower.
+
+---
+
+Thank you for reading! I hope this guide helps you make a more confident database choice for your next project.
+
