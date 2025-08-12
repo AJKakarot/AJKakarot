@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer scaling products to lakhs of users. 8x National Hackathon Winner / Finalist. Expert in Full Stack, AWS, and GenAI.",
   summary:
-    "I'm a Founding Engineer driven by building products that scale to lakhs of users. I've shipped over 10 commercial projects and have consistently placed as a winner or finalist in 8 national hackathons, a testament to my ability to deliver creative, high-impact solutions under extreme pressure. My mission is to architect scalable, production-grade software from ambitious ideas.",
+    "I'm a **Founding Engineer** driven by building products that scale to **lakhs of users**. I've shipped over **10 commercial projects** and have consistently placed as a **winner or finalist in 8 national hackathons**, a testament to my ability to deliver creative, **high-impact solutions under extreme pressure**. My mission is to architect **scalable, production-grade software** from ambitious ideas.",
   avatarUrl: "/me.png",
   skills: [
     // Core Stack
@@ -66,6 +66,12 @@ export const DATA = {
         url: "mailto:connectwithdivyansharma@gmail.com",
         icon: Icons.email,
         navbar: false,
+      },
+      calendar: {
+        name: "Book a Meeting",
+        url: "https://cal.com/divyansharma", // TODO: Replace with your actual Cal.com URL
+        icon: Icons.calcom,
+        navbar: true,
       },
     },
   },
@@ -158,7 +164,7 @@ export const DATA = {
       dates: "June 2025 - July 2025",
       active: true,
       description:
-        "Built a multi-tenant SaaS for Reddit automation with an AI content engine, smart scheduling, and real-time keyword tracking. Powered by a producer-consumer backend for async processing and a Next.js dashboard with live analytics and updates.",
+        "Built a **multi-tenant SaaS** for Reddit automation with an **AI content engine**, smart scheduling, and **real-time keyword tracking**. Powered by a **producer-consumer backend** for async processing and a **Next.js dashboard** with live analytics and updates.",
        technologies: [
         "Next.js", "Node.js", "TypeScript", "Prisma", "PostgreSQL", "AWS", "Docker", "GenAI (LangChain)", "WebSockets", "Recharts",
       ],
@@ -179,7 +185,7 @@ export const DATA = {
       dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "Created a real-time AI platform that spots and tackles online harassment, with automated evidence capture and an easy-to-use dashboard for live insights.",
+        "Created a **real-time AI platform** that spots and tackles **online harassment**, with **automated evidence capture** and an **easy-to-use dashboard** for live insights.",
            technologies: [
         "Next.js", "RAG", "Redis", "Docker", "Node.js", "MongoDB", "Puppeteer", "Prisma",
       ],
@@ -206,7 +212,7 @@ export const DATA = {
       dates: "June 2025",
       active: true,
       description:
-        "Built to solve the biggest bottleneck in cold outreach: slow, manual personalization and repetitive prompting. I engineered a full-stack system where users set up their professional profile once. The Node.js backend then synthesizes this saved context with recipient details, using a sophisticated prompt strategy to have the Google Gemini API generate hyper-personalized emails instantly, making outreach significantly faster.",
+        "Built to solve the **biggest bottleneck in cold outreach**: slow, manual personalization and repetitive prompting. I engineered a **full-stack system** where users set up their **professional profile once**. The **Node.js backend** then synthesizes this saved context with recipient details, using a **sophisticated prompt strategy** to have the **Google Gemini API** generate **hyper-personalized emails instantly**, making outreach **significantly faster**.",
      technologies: [
     "Next.js", "Node.js", "TypeScript", "Google Gemini API",
   ],
@@ -231,7 +237,7 @@ export const DATA = {
       dates: "April 2025",
       active: true,
       description:
-        "Launched a data-driven interview platform that serves real questions ranked by frequency from over 200 top tech companies. Its standout feature is a generative AI 'Problem Solver,' engineered to give users contextual, non-spoiler hints to guide their learning on difficult problems. The responsive UI, built with Tailwind CSS and Framer Motion, provides a seamless experience for data exploration and progress tracking.",
+        "Launched a **data-driven interview platform** that serves **real questions ranked by frequency** from over **200 top tech companies**. Its standout feature is a **generative AI 'Problem Solver,'** engineered to give users **contextual, non-spoiler hints** to guide their learning on difficult problems. The **responsive UI**, built with **Tailwind CSS and Framer Motion**, provides a **seamless experience** for data exploration and progress tracking.",
       technologies: [
     "React", "TypeScript", "Node.js", "Generative AI", "Tailwind CSS", "Framer Motion",
   ],
