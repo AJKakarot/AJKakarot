@@ -1,0 +1,92 @@
+---
+title: "Understanding the OSI Model: Layers That Power the Internet"
+publishedAt: "2025-6-22"
+summary: "Guide to the OSI Model"
+---
+
+Ever wondered how data travels across networks? The OSI (Open System Interconnection) Model helps us understand this journey. Think of it as a seven-story building, where each floor has a specific job in handling your data.
+
+
+The OSI model, which stands for **Open Systems Interconnection model**, is a standard for how people, servers, and devices communicate with each other over the internet.
+
+The OSI model is divided into seven layers: Application, Presentation, Session, Transport, Network, Data Link, and Physical. Each layer of the OSI model has different protocols, devices, and things being used.
+
+### Application Layer (Layer 7)
+This is where applications interact directly with the network through protocols. The Application Layer serves as the direct interface where your applications send messages, files, or emails across the network.
+
+### Presentation Layer (Layer 6)
+The Presentation Layer handles data formatting and translation between different systems. Its primary functions include:
+- Converting data between formats (e.g., `ASCII` to `EBCDIC`).
+- Managing encryption/decryption using protocols like **SSL**.
+- Performing data compression to optimize transmission.
+- Ensuring data is in a format that receiving systems can understand.
+
+### Session Layer (Layer 5)
+Think of this as the conversation manager of the network. It’s responsible for:
+- Managing communication sessions between applications.
+- Handling connection setup, maintenance, and termination.
+- Managing authentication and authorization.
+- Maintaining session persistence (like keeping your online shopping session active).
+
+### Transport Layer (Layer 4)
+The Transport Layer acts as the network’s delivery service, offering two primary protocols:
+- **TCP (Transmission Control Protocol):** A connection-oriented protocol guaranteeing delivery and correct ordering.
+- **UDP (User Datagram Protocol):** A connectionless protocol prioritizing speed over reliability.
+
+Key responsibilities include:
+- Breaking data into manageable segments.
+- Adding sequence numbers for correct reassembly.
+- Implementing checksums for error detection.
+- Managing data flow to prevent network congestion.
+- Handling retransmission of lost packets (in TCP).
+
+### Network Layer (Layer 3)
+This layer manages the routing of data between different networks using IP addressing. Its core functions include:
+- Assigning logical addresses (**IP addresses**) to senders and receivers.
+- Determining optimal paths for data transmission.
+- Implementing routing protocols for load balancing.
+- Creating and managing IP packets.
+- Handling internetwork communication.
+
+### Data Link Layer (Layer 2)
+Operating at the physical transmission level, this layer:
+- Adds **MAC addresses** to frames.
+- Performs error detection and correction.
+- Manages physical addressing.
+- Controls how data is placed onto and received from the network medium.
+
+### Physical Layer (Layer 1)
+The Physical Layer represents the hardware level where digital bits are converted into physical signals. Its responsibilities include:
+- Converting between bits and physical signals (electrical, light, or radio waves).
+- Managing the physical transmission medium.
+- Handling raw bit transmission.
+- Defining hardware specifications.
+
+---
+
+## Explanation by Online Shopping
+
+When you click “Buy Now” on your favorite online store, your data travels through seven distinct layers of the OSI (Open Systems Interconnection) model. Let’s break down this journey, starting from the top:
+
+Application Layer (Layer 7)
+This is where your shopping actually begins. When you browse products or click buttons on an e-commerce website, you’re interacting directly with the Application Layer. This layer handles your direct interactions with the website’s interface.
+
+ Presentation Layer (Layer 6)
+Think of this as the translator. When you enter your credit card information, this layer converts your data into a binary format that computers can understand. It also encrypts your sensitive payment information using protocols like **SSL** to keep it safe from prying eyes. This is why you see that little padlock icon in your browser during checkout.
+
+ Session Layer (Layer 5)
+This layer manages your shopping session. It’s responsible for keeping you logged into your account while you shop and making sure your shopping cart remains intact as you browse different pages. When you finally log out, this layer terminates your session securely.
+
+Transport Layer (Layer 4)
+Here’s where your order gets packaged for delivery — but we’re talking about data, not physical packages. Your order information gets broken down into smaller pieces called segments. It uses either **TCP** (for secure transactions like payments) or **UDP** (for less critical actions like updating your shopping cart display). Think of TCP as certified mail with tracking, while UDP is more like regular mail — faster but less guaranteed.
+
+Network Layer (Layer 3)
+This layer acts like a global postal system for your data. It assigns **IP addresses** (like digital postal addresses) to ensure your order details travel from your computer to the e-commerce server. Just as a postal service determines the best route for a package, this layer figures out the optimal path for your data through the internet.
+
+Data Link Layer (Layer 2)
+Consider this the local post office of networking. It adds **MAC addresses** (like exact street addresses) to your data and handles error detection. If your payment information gets corrupted during transmission, this layer detects it and requests a resend.
+
+Physical Layer (Layer 1)
+This is where your data actually moves through physical hardware — the cables, wireless signals, and network cards that carry your order information. It converts all the above layers’ work into actual electrical signals or radio waves that travel across the internet.
+
+> So, when you make an online purchase, your data doesn’t just magically go from your computer to the e-commerce server. It travels through these seven layers on your device, across the internet, and up through the same seven layers on the server side. Each layer plays a crucial role in ensuring your transaction is fast, secure, and accurate.
