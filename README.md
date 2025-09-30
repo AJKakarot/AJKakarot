@@ -9,37 +9,47 @@
 <div align="center">
   <p>🤖 <strong>Building cool stuff every day</strong></p>
   <p>📫 Need something done? <strong><a href="mailto:gajeet031@gmail.com">Hit me up!</a></strong></p>
+  <p>
+    <a href="https://github.com/AJKakarot"><img src="https://img.shields.io/badge/GitHub-AJKakarot-181717?style=for-the-badge&logo=github"/></a>
+    <a href="https://www.linkedin.com/in/ajeet-gupta-99aa6b281/"><img src="https://img.shields.io/badge/LinkedIn-Ajeet_Gupta-0A66C2?style=for-the-badge&logo=linkedin"/></a>
+    <a href="https://medium.com/@2301661530002"><img src="https://img.shields.io/badge/Medium-AjeetGupta-12100E?style=for-the-badge&logo=medium"/></a>
+    <a href="https://www.codechef.com/users/ajeet031"><img src="https://img.shields.io/badge/CodeChef-Ajeet031-EE2B2B?style=for-the-badge&logo=codechef"/></a>
+  </p>
 </div>
 
 ---
 
-## 🛠 Skills
+## 🛠 Skills & Tools
 
-**Languages:** TypeScript, JavaScript, Java, C/C++, SQL, HTML/CSS  
-**Frontend:** Next.js, React.js, Redux, TailwindCSS, shadcn/ui  
-**Backend:** Node.js, Express.js  
-**Databases & Caching:** PostgreSQL, MongoDB (Mongoose & Prisma ORM), MySQL  
-**Cloud & DevOps:** Cloudflare, Vercel, Git/GitHub Actions, CI/CD  
-**AI & API Integrations:** Langchain, Google Gemini API, Razorpay, NextAuth, Clerk, Ingest, Supabase, Postman  
+<div align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white" />
+</div>
 
 ---
 
 ## 💼 Experience
 
-### Modulus | Full-Stack Development Intern, Scalable Architecture  
+### Modulus | Full-Stack Development Intern
 **Aug 2025 – Nov 2025**  
 
-- Gained hands-on experience in front-end and back-end development.  
 - Built responsive interfaces using HTML/CSS, Tailwind CSS, and React.js.  
-- Developed server-side applications with Node.js and Express.js, integrating RESTful APIs, authentication, and authorization.  
-- Worked with MongoDB and SQL databases for schema design, data management, and query optimization.  
-- Collaborated with the team to deliver scalable, maintainable, and efficient code in real-world projects.  
+- Developed server-side applications with Node.js, Express.js, integrating REST APIs, authentication & authorization.  
+- Worked with MongoDB & SQL databases for schema design, data management, and query optimization.  
+- Collaborated to deliver scalable, maintainable, and efficient code.  
 
-### Technical Coordinator & Web Developer | E-Cell, Dr. AITD  
-**Dates: --**  
+### Technical Coordinator & Web Developer | E-Cell, Dr. AITD
 
 - Led end-to-end development of a full-stack MERN website.  
-- Managed technical workflow and mentored peers, ensuring adherence to development best practices.  
+- Managed technical workflow and mentored peers for best practices.  
 
 ---
 
@@ -47,44 +57,46 @@
 
 ### [CashTrackr – Intelligent Finance Dashboard](https://cash-trackr-3mhg-h0j75yy47-ajeets-projects-0160f38e.vercel.app)  
 *Next.js 15, React, TailwindCSS, shadcn/ui | Aug 2025*  
-
-- Developed a responsive finance dashboard with AI-driven financial insights.  
-- Built interactive UI components with shadcn/ui and Framer Motion; backend APIs with Node.js, Express.js, Prisma/MongoDB.  
-- Deployed on Vercel, optimized for performance, responsiveness, and SEO.  
+- AI-driven finance dashboard for real-time budget tracking.  
+- Interactive UI using shadcn/ui + Framer Motion; backend APIs with Node.js, Express.js, Prisma/MongoDB.  
+- Deployed on Vercel; optimized for performance and SEO.  
 
 ### [BytesBlog - Blog Platform](https://bytesblog.onrender.com)  
 *React, TailwindCSS, Node.js, Express.js, MongoDB, Cloudinary, JWT | Apr 2025*  
-
-- Developed a full-stack blogging platform with CRUD operations and JWT-based authentication.  
-- Built responsive and interactive UI with React and TailwindCSS.  
-- Implemented scalable backend APIs using Node.js, Express.js, MongoDB, and Cloudinary.  
+- Full-stack blogging platform with CRUD operations & JWT authentication.  
+- Responsive and interactive UI.  
+- Backend with Node.js, Express.js, MongoDB, Cloudinary.  
 
 ### Simon-Game  
 *JavaScript, HTML/CSS | Jan 2024*  
-
-- Developed an interactive Simon game with leveling-up features.  
-- Implemented dynamic color and sound feedback for each sequence.  
-- Designed a responsive, user-friendly UI across desktop and mobile devices.  
+- Interactive Simon game with dynamic color & sound feedback.  
+- Leveling-up difficulty and responsive UI across devices.  
 
 ---
 
 ## 🎓 Education
 
-**B.Tech CSE in Artificial Intelligence and Machine Learning**  
+**B.Tech CSE in Artificial Intelligence & Machine Learning**  
 Dr. Ambedkar Institute of Technology for Divyangjan | Sep 2023 – Aug 2027  
-Uttar Pradesh, India  
 
 ---
 
-## 🎯 Curricular Activities
+## 🎯 Achievements & Activities
 
-- **Web Developer, E-Cell Dr.AITD** – Built a full-stack website integrating dynamic features and secure authentication.  
-- **GeeksforGeeks Contest Achievement** – Recognized for solving daily coding challenges and received a T-shirt award.  
+- **Web Developer, E-Cell Dr.AITD** – Built a full-stack website with dynamic features & secure authentication.  
+- **GeeksforGeeks Contest Achievement** – Recognized for solving daily coding challenges (T-shirt award).  
 
 ---
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AJKakarot&layout=compact&hide=css,scss,html&theme=tokyonight" alt="Top Languages" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=AJKakarot&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AJKakarot&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="400"/>
 </div>
+
+---
+
+## ⚡ Fun Fact
+
+- Coffee enthusiast ☕ | Gamer 🎮 | Always learning new tech 🚀
