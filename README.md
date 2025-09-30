@@ -13,7 +13,6 @@
     <a href="https://github.com/AJKakarot"><img src="https://img.shields.io/badge/GitHub-AJKakarot-181717?style=for-the-badge&logo=github"/></a>
     <a href="https://www.linkedin.com/in/ajeet-gupta-99aa6b281/"><img src="https://img.shields.io/badge/LinkedIn-Ajeet_Gupta-0A66C2?style=for-the-badge&logo=linkedin"/></a>
     <a href="https://medium.com/@2301661530002"><img src="https://img.shields.io/badge/Medium-AjeetGupta-12100E?style=for-the-badge&logo=medium"/></a>
-    <a href="https://www.codechef.com/users/ajeet031"><img src="https://img.shields.io/badge/CodeChef-Ajeet031-EE2B2B?style=for-the-badge&logo=codechef"/></a>
   </p>
 </div>
 
@@ -66,11 +65,6 @@
 - Full-stack blogging platform with CRUD operations & JWT authentication.  
 - Responsive and interactive UI.  
 - Backend with Node.js, Express.js, MongoDB, Cloudinary.  
-
-### Simon-Game  
-*JavaScript, HTML/CSS | Jan 2024*  
-- Interactive Simon game with dynamic color & sound feedback.  
-- Leveling-up difficulty and responsive UI across devices.  
 
 ---
 
