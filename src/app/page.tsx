@@ -166,7 +166,7 @@ export default function Page() {
                   I love building things
                 </h2>
                                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve always loved the challenge of building and shipping fast, and for me, hackathons were the ultimate test. Being in over 20 national competitions taught me what it truly takes to turn a big idea into a real, working product over a single weekend. You learn to make smart calls on the fly and just focus on what&apos;s essential to get it done. That&apos;s how I learned to deliver under pressure, which led to 8 placements as a winner or finalist.
+                  I&apos;ve always loved the challenge of <strong className="text-foreground font-semibold">building and shipping fast</strong>, and for me, <strong className="text-foreground font-semibold">hackathons were the ultimate test</strong>. Being in <strong className="text-foreground font-semibold">over 20 national competitions</strong> taught me what it truly takes to turn a big idea into a <strong className="text-foreground font-semibold">real, working product over a single weekend</strong>. You learn to make smart calls on the fly and just focus on what&apos;s essential to get it done. That&apos;s how I learned to <strong className="text-foreground font-semibold">deliver under pressure</strong>, which led to <strong className="text-foreground font-semibold">8 placements as a winner or finalist</strong>.
                  </p>
                </div>
              </div>
