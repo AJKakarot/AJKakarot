@@ -8,9 +8,9 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/New+Delhi",
   description:
-    "Software Engineer scaling products to lakhs of users. 8x National Hackathon Winner / Finalist. Expert in Full Stack, AWS, and GenAI.",
+    "Software Engineer scaling products to millions of users. 8x National Hackathon Winner / Finalist. Expert in Full Stack, AWS, and GenAI.",
   summary:
-    "I'm a **Founding Engineer** driven by building products that scale to **lakhs of users**. I've shipped over **10 commercial projects** and have consistently placed as a **winner or finalist in 8 national hackathons**, a testament to my ability to deliver creative, **high-impact solutions under extreme pressure**. My mission is to architect **scalable, production-grade software** from ambitious ideas.",
+    "I'm a **Founding Engineer** driven by building products that scale to **millions of users**. I've shipped over **10 commercial projects** and have consistently placed as a **winner or finalist in 8 national hackathons**, a testament to my ability to deliver creative, **high-impact solutions under extreme pressure**. My mission is to architect **scalable, production-grade software** from ambitious ideas.",
   avatarUrl: "/me.png",
   skills: [
     // Core Stack
@@ -87,7 +87,7 @@ export const DATA = {
       start: "Aug 2025",
       end: "Present",
       description:
-        "As a founding engineer, I architected and deployed scalable backend systems designed to handle lakhs of concurrent users. My code directly supported the company's rapid growth phase, ensuring high performance and reliability as we expanded our user base.",
+        "As a founding engineer, I architected and deployed scalable backend systems designed to handle millions of concurrent users. My code directly supported the company's rapid growth phase, ensuring high performance and reliability as we expanded our user base.",
     },
      {
       company: "Modulus",
