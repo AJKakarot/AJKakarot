@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'your-username';
+const GITHUB_USERNAME = process.env.GITHUB_USERNAME || 'divyansharma001';
 
 export async function GET(request: NextRequest) {
   try {

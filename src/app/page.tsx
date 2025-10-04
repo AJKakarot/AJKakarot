@@ -173,9 +173,9 @@ export default function Page() {
            </BlurFade>
                                                <BlurFade delay={BLUR_FADE_DELAY * 15}>
                <div className="flex justify-center">
-                 {/* <div className="w-full max-w-4xl">
+                 <div className="w-full max-w-full">
                    <GitHubContributions />
-                 </div> */}
+                 </div>
                </div>
              </BlurFade>
            <BlurFade delay={BLUR_FADE_DELAY * 16}>
