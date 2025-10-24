@@ -80,7 +80,16 @@
   }
   
   pre {
-    @apply !px-0 rounded-lg overflow-x-auto py-4
+    @apply !px-0 rounded-lg overflow-x-auto py-4;
+    background-color: #1a1a1a !important;
+  }
+
+  pre code {
+    @apply text-gray-100;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    display: block;
   }
    
   pre [data-line] {

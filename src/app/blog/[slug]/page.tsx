@@ -68,7 +68,13 @@ export default async function Blog({
         </p>
       </div>
       <article
-        className="prose dark:prose-invert max-w-[650px]"
+        className="prose prose-neutral dark:prose-invert max-w-[650px] 
+        prose-headings:font-bold prose-h2:text-2xl prose-h3:text-xl 
+        prose-p:text-base prose-p:leading-7 prose-p:my-4
+        prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900 
+        prose-code:text-sm prose-code:font-mono
+        prose-a:text-blue-600 dark:prose-a:text-blue-400
+        prose-strong:font-semibold prose-ul:my-4"
         dangerouslySetInnerHTML={{ __html: post.source }}
       />
     </section>
