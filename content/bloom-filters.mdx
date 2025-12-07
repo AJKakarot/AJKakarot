@@ -1,0 +1,102 @@
+---
+title: "How Do Apps Remember Everything You've Watched Without Crashing?"
+publishedAt: "2025-12-07"
+summary: "Discover how Bloom Filters power the recommendation algorithms behind TikTok, Instagram Reels, and YouTube Shorts to ensure you never see the same content twice"
+---
+
+You scroll through TikTok, Reels, or Shorts, right?
+
+Have you ever wondered why you never get recommended the same video twice? Think about it, you've probably watched thousands of reels, yet somehow the app remembers every single one and never shows it again. If the same content kept appearing, scrolling would quickly become tedious.
+
+So how does TikTok keep track of millions of videos you've watched without breaking a sweat?
+
+In this blog, we'll learn how this system is designed so that your next reel is always a new one, and how the algorithm stays so addictive.
+
+The secret? A clever technology called **Bloom Filters**.
+
+Bloom filters are probabilistic data structures that can state with 100% confidence that an element does not belong to a set.
+
+But what would be a naive way to keep track of this?
+
+---
+
+## The Naive Approach
+
+Let's say we try to keep track of everything a user watches in a simple set.
+
+![Bloom Filter Naive Approach](/bloomfilter01.png)
+
+However, people watch hundreds of reels every single day, so over time, the set of all posts watched by a user would become extremely large.
+
+So what's the problem? To check the existence of a key in a set, we have to load the entire set into memory and then check. This will be super expensive and time-consuming.
+
+So how can we do it better?
+
+---
+
+## The Key Insight
+
+Let's break it down. The key insight is: **once something is watched, you cannot take it back**.
+
+That is, once a reel is watched by you, we do not take it out of the set.
+
+This means that storing actual data is not worth it.
+
+This is the concept on which Bloom Filters are designed.
+
+---
+
+## How It Works
+
+Filter = Bit array
+
+![Bloom Filter Implementation](/bloomfilter02.png)
+
+Thus we see:
+
+**When Bloom filter says No → We can be sure**
+
+**When it says Yes → We still need to check**
+
+**Space Efficiency:** Bloom Filters take significantly less space to hold the information because they do not store keys and are very efficient in checking existence (just an array lookup).
+
+**False Positive Rate:** As the number of keys we put in the Bloom filter increases, the false positive rate increases (i.e., it says the key is present but in reality it's not).
+
+Hence when the number of keys increases:
+
+- We have to recreate Bloom filters with a larger size and populate keys again
+- Estimate the max keys and provision a larger one to start with
+
+---
+
+## Practical Implementation
+
+Use it whenever:
+
+- You insert but do not remove data
+- You need "No" with 100% accuracy
+- Having false positives is okay
+
+**Examples:** Medium recommendations, web crawlers, feed generation, Tinder feed
+
+---
+
+## The Real Magic Behind Your Endless Scroll
+
+Now you know the secret. Every time you open TikTok and get served a perfectly curated feed of fresh content, there's a Bloom filter working silently in the background.
+
+Here's what happens in those milliseconds between your tap and the video appearing:
+
+1. **Lightning-fast check**: "Have we shown this user video #12847392 before?"
+2. **Bloom filter responds**: "Definitely not" or "Maybe, let me double-check"
+3. **Algorithm decides**: Include it in the feed or skip to the next candidate
+4. **You see**: A perfectly fresh reel that keeps you scrolling
+
+This isn't just about TikTok. Every major platform uses similar techniques:
+
+- **Instagram Reels** ensures you don't see the same meme twice
+- **YouTube Shorts** remembers your viewing history across billions of videos
+- **Twitter** prevents duplicate tweets in your timeline
+- **LinkedIn** keeps your feed fresh with new posts
+
+---

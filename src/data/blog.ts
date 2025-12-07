@@ -43,6 +43,8 @@ export async function markdownToHTML(markdown: string) {
     .replace(/^### (.*$)/gim, '<h3 class="text-xl font-semibold mt-6 mb-3">$1</h3>')
     .replace(/^## (.*$)/gim, '<h2 class="text-2xl font-bold mt-8 mb-4">$1</h2>')
     .replace(/^# (.*$)/gim, '<h1 class="text-3xl font-bold mt-8 mb-4">$1</h1>')
+    // Images (before links to avoid conflicts)
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" class="rounded-lg my-6 w-full h-auto" />')
     // Bold (before italic to handle ** correctly)
     .replace(/\*\*([^\*]+)\*\*/g, '<strong class="font-semibold">$1</strong>')
     // Italic
@@ -101,8 +103,8 @@ export async function markdownToHTML(markdown: string) {
   // Clean up empty paragraphs and fix paragraph spacing around block elements
   result = result
     .replace(/<p class="my-4"><\/p>/g, '')
-    .replace(/<p class="my-4">(<h[1-6]|<div|<pre|<ul|<ol|<hr)/g, '$1')
-    .replace(/(<\/h[1-6]>|<\/div>|<\/pre>|<\/ul>|<\/ol>|<hr[^>]*>)<\/p>/g, '$1')
+    .replace(/<p class="my-4">(<h[1-6]|<div|<pre|<ul|<ol|<hr|<img)/g, '$1')
+    .replace(/(<\/h[1-6]>|<\/div>|<\/pre>|<\/ul>|<\/ol>|<hr[^>]*>|<img[^>]*>)<\/p>/g, '$1')
     .replace(/<p class="my-4">(<br>)+/g, '<p class="my-4">')
     .replace(/(<br>)+<\/p>/g, '</p>');
 
