@@ -8,7 +8,7 @@ If you are building a small college project, a standard database (like MySQL or 
 
 At that scale, "one-in-a-million" bugs happen thousands of times a day. Hard drives become too slow. Networks get clogged. Entire clusters fail.
 
-This is the story of how Facebook took a simple open-source tool—**Memcached**—and engineered it into a distributed beast capable of handling **billions of requests per second**. Based on their famous NSDI '13 paper, here is a look inside the architecture that keeps your timeline loading instantly.
+This is the story of how Facebook took a simple open-source tool—**Memcached**—and engineered it into a distributed beast capable of handling **billions of requests per second**. Based on their famous NSDI '13 paper, here is a look inside the architecture that keeps your timeline loading instantly. [Read the original research paper](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf) for all the technical details.
 
 ## The Core Concept: The "Look-Aside" Cache
 
@@ -16,12 +16,12 @@ Before we dive into the crazy scaling hacks, we need to understand the baseline.
 
 Here is the flow:
 
-1. **Read:** When a web server needs data (e.g., "Get Profile Picture"), it asks Memcache first.
+**Read:** When a web server needs data (e.g., "Get Profile Picture"), it asks Memcache first.
 
-   * If it's there (**Hit**): Great, return it.
-   * If it's missing (**Miss**): The **web server** queries the database, gets the data, and populates Memcache for next time.
+- If it's there (**Hit**): Great, return it.
+- If it's missing (**Miss**): The **web server** queries the database, gets the data, and populates Memcache for next time.
 
-2. **Write:** When data changes, the web server updates the database first. Then, it sends a **delete** request to Memcache to remove the old, stale data.
+**Write:** When data changes, the web server updates the database first. Then, it sends a **delete** request to Memcache to remove the old, stale data.
 
 Why delete instead of update? Because "deletes" are **idempotent**. If you accidentally send a delete command twice, the result is the same (the data is gone). If you sent an "update" command twice in the wrong order, you could permanently corrupt the cache with old data.
 
@@ -82,10 +82,12 @@ When data changes in the database, you have to tell **all** the Frontend Cluster
 
 They built a daemon called **McSqueal** that runs on every database server.
 
-1. When a write happens, the database logs it in a "commit log."
-2. McSqueal watches this log. It extracts the keys that need to be deleted.
-3. It **batches** these deletes together into fewer packets.
-4. It broadcasts the batch to special routers (mcrouter) in every cluster, which then delete the specific keys.
+- When a write happens, the database logs it in a "commit log."
+- McSqueal watches this log. It extracts the keys that need to be deleted.
+- It **batches** these deletes together into fewer packets.
+- It broadcasts the batch to special routers (mcrouter) in every cluster, which then delete the specific keys.
+
+![McSqueal Architecture Diagram](/mcsequeal.png)
 
 This batching resulted in an **18x improvement** in efficiency.
 
@@ -102,11 +104,11 @@ There is a delay (lag) when copying data from the Master to the Replicas.
 
 **The Nightmare Scenario:**
 
-1. A user in the Replica Region updates their profile.
-2. The web server writes to the Master Region.
-3. The user refreshes the page immediately.
-4. The Replica Region's database hasn't received the update yet (lag).
-5. The user sees their **old** profile and thinks the update failed.
+- A user in the Replica Region updates their profile.
+- The web server writes to the Master Region.
+- The user refreshes the page immediately.
+- The Replica Region's database hasn't received the update yet (lag).
+- The user sees their **old** profile and thinks the update failed.
 
 ### The Solution: Remote Markers
 
@@ -114,15 +116,15 @@ To fix this, Facebook uses **Remote Markers**.
 
 When a web server updates data:
 
-1. It places a **Marker** (a flag) in the **local** Replica cache. This marker says, "Hey, this key was just changed".
-2. It sends the write to the Master.
-3. It deletes the old data from the local cache.
+- It places a **Marker** (a flag) in the **local** Replica cache. This marker says, "Hey, this key was just changed".
+- It sends the write to the Master.
+- It deletes the old data from the local cache.
 
 Now, if the user refreshes the page:
 
-1. The web server looks in the cache. It misses (because we deleted it).
-2. BUT, it sees the **Marker**.
-3. The Marker tells the web server: "Don't trust the local database right now. It might be stale. Go redirect this query to the Master Region".
+- The web server looks in the cache. It misses (because we deleted it).
+- BUT, it sees the **Marker**.
+- The Marker tells the web server: "Don't trust the local database right now. It might be stale. Go redirect this query to the Master Region".
 
 This ensures the user always sees their own changes instantly, even if the database is lagging behind.
 
@@ -130,10 +132,10 @@ This ensures the user always sees their own changes instantly, even if the datab
 
 ## Key Takeaways
 
-1. **Latency over Consistency:** Facebook often chooses to show slightly stale data to keep the site fast, but they have clever mechanisms (like Remote Markers) to hide this from the user when it matters.
+**Latency over Consistency:** Facebook often chooses to show slightly stale data to keep the site fast, but they have clever mechanisms (like Remote Markers) to hide this from the user when it matters.
 
-2. **Stateless Clients:** They kept the Memcache servers "dumb" and simple. All the complex logic (Leases, Gutter routing) lives in the client software on the web servers.
+**Stateless Clients:** They kept the Memcache servers "dumb" and simple. All the complex logic (Leases, Gutter routing) lives in the client software on the web servers.
 
-3. **UDP vs. TCP:** They use **UDP** for "Get" requests because it's faster and cheaper. If a packet drops, they just treat it as a cache miss. They only use **TCP** for "Sets" and "Deletes" where reliability is required.
+**UDP vs. TCP:** They use **UDP** for "Get" requests because it's faster and cheaper. If a packet drops, they just treat it as a cache miss. They only use **TCP** for "Sets" and "Deletes" where reliability is required.
 
 Scaling isn't just about buying more servers; it's about predicting where the bottlenecks will move next. Whether it's the thundering herd or the speed of light, Facebook's architecture shows that at scale, you have to engineer your way around the laws of physics.
