@@ -13,21 +13,31 @@ export const DATA = {
     "I'm **Divyansh Sharma**, a **Founding Engineer** and **Full Stack Developer** with **2 years** of experience specializing in **GenAI**, **DevOps**, and **scalable backend systems**. I've shipped **10+ production-grade products**, serving **1,000+ daily active users** and **2,500+ paying users**, and consistently placed as a **winner or finalist in 8 national-level hackathons**. I architect **scalable, production-grade software** on **AWS**, integrating **GenAI** into real-world applications and thriving under **extreme pressure**, turning ambitious ideas into systems that can scale to **millions**.",
   avatarUrl: "/me.png",
   skills: [
-    // Core Stack
-    "Next.js",
-    "Node.js",
-    "AWS",
-    // AI Superpower
-    "GenAI",
-    "Langchain",
-    "RAG", // From your winning project - a key modern skill
-    // Essential Tech
+    "JavaScript",
     "TypeScript",
-    "Docker",
+    "SQL",
+    "React.js",
+    "Next.js",
+    "Redux",
+    "Tailwind",
+    "Node.js",
+    "Express.js",
+    "Langchain",
+    "Gemini API",
     "PostgreSQL",
+    "MongoDB",
     "Redis",
-    "CI/CD (GitHub Actions)",
+    "MySQL",
     "Prisma",
+    "Drizzle",
+    "AWS EC2/S3",
+    "Cloudflare",
+    "Nginx",
+    "PM2",
+    "BullMQ",
+    "Git",
+    "GitHub Actions",
+    "Supabase",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -78,52 +88,52 @@ export const DATA = {
 
   work: [
      {
-      company: "MarkupX",
-      href: "https://www.markupxbrands.com", // TODO: Add company URL if different
+      company: "MarkupX Brands",
+      href: "https://www.markupxbrands.com",
       badges: [],
       location: "Onsite",
-      title: "Founding Engineer",
-      logoUrl: "/markupX.png", // TODO: Add logo
+      title: "Full Stack AI Engineer, System Architecture",
+      logoUrl: "/markupX.png",
       start: "Aug 2025",
       end: "Dec 2025",
       description:
-        "As a founding engineer, I architected and deployed scalable backend systems designed to handle millions of concurrent users. My code directly supported the company's rapid growth phase, ensuring high performance and reliability as we expanded our user base.",
+        "Built an enterprise AI platform with 12+ generative features (Virtual Try-On, Face Swap), implementing GPU-accelerated Canvas processing to reduce latency by 40%, migrating to Zustand architecture (66% code reduction, 70% fewer re-renders), architecting a hybrid database (MongoDB + Cloudflare D1 Edge) for 100M+ records, and engineering 40+ API endpoints with rate-limiting and webhook idempotency for async AI jobs (FAL.ai) and payments (Razorpay).",
     },
      {
       company: "Modulus",
       href: "http://trymodulus.com",
       badges: [],
       location: "Remote",
-      title: "Founding Full-Stack Engineer",
-      logoUrl: "/modulus.png", // TODO: Add logo
+      title: "Full Stack Development, Technical Ownership, Scalable Architecture",
+      logoUrl: "/modulus.png",
       start: "April 2025",
       end: "August 2025",
       description:
-        "Scaled to 1,000+ DAU by architecting a full-stack AI platform. Cut latency with a Redis/Cloudflare cache (82% hit ratio) and built a GenAI recommendation engine using Langchain.",
+        "Engineered and scaled cloud infrastructure to support 10x user growth (500+ active users), optimizing performance with Redis/Cloudflare dual-layer cache (82.15% hit ratio) and CI/CD pipeline automation, while developing an AI-powered recommendation engine (Langchain, Google Gemini) and zero-touch booking workflow (Razorpay & Cal.com) with resilient background job scheduling for low API latency.",
     },
    {
       company: "Showtime",
       badges: [],
       href: "https://sureball.net/",
       location: "Remote",
-      title: "Backend Engineer Intern",
-      logoUrl: "/showtime.png", // TODO: Add logo
+      title: "Backend Development, API Integration, System Reliability",
+      logoUrl: "/showtime.png",
       start: "Feb 2025",
       end: "June 2025",
       description:
-        "Tasked with expanding B2B services by integrating new third-party APIs. Responsibilities include bolstering system reliability, improving test coverage, and safeguarding data integrity for all business clients by re-architecting backend services.",
+        "Integrated third-party game provider APIs to expand B2B service offerings and refactored backend APIs to resolve critical reliability issues, improving system stability and ensuring consistent performance for partner gaming platforms under diverse traffic conditions.",
     },
     {
       company: "Code Inbound LLP",
       badges: [],
       href: "https://www.codeinbound.com",
       location: "Remote",
-      title: "Frontend Engineer Intern",
-      logoUrl: "/codeinbound.png", // TODO: Add logo
+      title: "Frontend Engineering, Performance Optimization",
+      logoUrl: "/codeinbound.png",
       start: "Sep 2024",
       end: "Feb 2025",
       description:
-        "Responsible for building a real-time monitoring UI for a large-scale Network Management System. Key objectives include enhancing application performance and stability by refactoring core components and resolving 20+ critical bugs.",
+        "Engineered data-driven UI components for a large-scale Network Management System using React.js, Redux, and TypeScript to enhance real-time monitoring capabilities, while optimizing frontend performance through component refactoring and Redux state management refinement, resolving 20+ critical bugs and performance bottlenecks.",
     },
     {
       company: "instoQR",
@@ -135,7 +145,7 @@ export const DATA = {
       start: "Jun 2024",
       end: "Sep 2024",
       description:
-        "Engineered the startup's core product: an end-to-end QR ordering system using the MERN stack. Shipped a full-stack table reservation feature with Express APIs and a React/Redux frontend, directly improving partner restaurants' operational efficiency.",
+        "Engineered the startup's core end-to-end QR ordering system using the MERN stack and shipped a full-stack table reservation feature with Express APIs and React/Redux frontend to improve partner restaurants' operational efficiency.",
     },
     
   ],
