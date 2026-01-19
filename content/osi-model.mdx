@@ -78,7 +78,7 @@ Think of this as the translator. When you enter your credit card information, th
 This layer manages your shopping session. It’s responsible for keeping you logged into your account while you shop and making sure your shopping cart remains intact as you browse different pages. When you finally log out, this layer terminates your session securely.
 
 Transport Layer (Layer 4)
-Here’s where your order gets packaged for delivery — but we’re talking about data, not physical packages. Your order information gets broken down into smaller pieces called segments. It uses either **TCP** (for secure transactions like payments) or **UDP** (for less critical actions like updating your shopping cart display). Think of TCP as certified mail with tracking, while UDP is more like regular mail — faster but less guaranteed.
+Here’s where your order gets packaged for delivery - but we’re talking about data, not physical packages. Your order information gets broken down into smaller pieces called segments. It uses either **TCP** (for secure transactions like payments) or **UDP** (for less critical actions like updating your shopping cart display). Think of TCP as certified mail with tracking, while UDP is more like regular mail - faster but less guaranteed.
 
 Network Layer (Layer 3)
 This layer acts like a global postal system for your data. It assigns **IP addresses** (like digital postal addresses) to ensure your order details travel from your computer to the e-commerce server. Just as a postal service determines the best route for a package, this layer figures out the optimal path for your data through the internet.
@@ -87,6 +87,6 @@ Data Link Layer (Layer 2)
 Consider this the local post office of networking. It adds **MAC addresses** (like exact street addresses) to your data and handles error detection. If your payment information gets corrupted during transmission, this layer detects it and requests a resend.
 
 Physical Layer (Layer 1)
-This is where your data actually moves through physical hardware — the cables, wireless signals, and network cards that carry your order information. It converts all the above layers’ work into actual electrical signals or radio waves that travel across the internet.
+This is where your data actually moves through physical hardware - the cables, wireless signals, and network cards that carry your order information. It converts all the above layers’ work into actual electrical signals or radio waves that travel across the internet.
 
 > So, when you make an online purchase, your data doesn’t just magically go from your computer to the e-commerce server. It travels through these seven layers on your device, across the internet, and up through the same seven layers on the server side. Each layer plays a crucial role in ensuring your transaction is fast, secure, and accurate.

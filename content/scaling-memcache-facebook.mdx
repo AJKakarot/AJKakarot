@@ -8,7 +8,7 @@ If you are building a small college project, a standard database (like MySQL or 
 
 At that scale, "one-in-a-million" bugs happen thousands of times a day. Hard drives become too slow. Networks get clogged. Entire clusters fail.
 
-This is the story of how Facebook took a simple open-source tool—**Memcached**—and engineered it into a distributed beast capable of handling **billions of requests per second**. Based on their famous NSDI '13 paper, here is a look inside the architecture that keeps your timeline loading instantly. [Read the original research paper](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf).
+This is the story of how Facebook took a simple open-source tool - **Memcached** - and engineered it into a distributed beast capable of handling **billions of requests per second**. Based on their famous NSDI '13 paper, here is a look inside the architecture that keeps your timeline loading instantly. [Read the original research paper](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf).
 
 ## The Core Concept: The "Look-Aside" Cache
 
@@ -57,7 +57,7 @@ If other users ask for the same key while the first user is busy, Memcache tells
 
 In distributed systems, machines die all the time. If a Memcache server fails, you lose that portion of the cache.
 
-The naive solution is to just re-route those requests to the remaining live servers. This is dangerous. If one server fails because it was overloaded, shifting its traffic to other servers might overload them too. This causes a **cascading failure**—the servers fall like dominoes.
+The naive solution is to just re-route those requests to the remaining live servers. This is dangerous. If one server fails because it was overloaded, shifting its traffic to other servers might overload them too. This causes a **cascading failure** - the servers fall like dominoes.
 
 ### The Solution: Gutter Servers
 

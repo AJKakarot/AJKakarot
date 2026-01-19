@@ -8,9 +8,9 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/New+Delhi",
   description:
-    "Software Engineer scaling products to millions of users. 8x National Hackathon Winner / Finalist. Expert in Full Stack, AWS, and GenAI.",
+    "Full Stack Developer & Founding Engineer (2 years) specializing in GenAI, DevOps, and scalable backend systems. Shipped 10+ production products; 8x national hackathon winner/finalist; architecting systems for millions.",
   summary:
-    "I'm a **Founding Engineer** driven by building products that scale to **millions of users**. I've shipped over **10 commercial projects** and have consistently placed as a **winner or finalist in 8 national hackathons**, a testament to my ability to deliver creative, **high-impact solutions under extreme pressure**. My mission is to architect **scalable, production-grade software** from ambitious ideas.",
+    "I'm **Divyansh Sharma**, a **Founding Engineer** and **Full Stack Developer** with **2 years** of experience specializing in **GenAI**, **DevOps**, and **scalable backend systems**. I've shipped **10+ production-grade products**, serving **1,000+ daily active users** and **2,500+ paying users**, and consistently placed as a **winner or finalist in 8 national-level hackathons**. I architect **scalable, production-grade software** on **AWS**, integrating **GenAI** into real-world applications and thriving under **extreme pressure**, turning ambitious ideas into systems that can scale to **millions**.",
   avatarUrl: "/me.png",
   skills: [
     // Core Stack
@@ -85,7 +85,7 @@ export const DATA = {
       title: "Founding Engineer",
       logoUrl: "/markupX.png", // TODO: Add logo
       start: "Aug 2025",
-      end: "Present",
+      end: "Dec 2025",
       description:
         "As a founding engineer, I architected and deployed scalable backend systems designed to handle millions of concurrent users. My code directly supported the company's rapid growth phase, ensuring high performance and reliability as we expanded our user base.",
     },

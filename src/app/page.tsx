@@ -3,7 +3,6 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-import GitHubContributions from "@/components/github-contributions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -171,13 +170,6 @@ export default function Page() {
                </div>
              </div>
            </BlurFade>
-                                               <BlurFade delay={BLUR_FADE_DELAY * 15}>
-               <div className="flex justify-center">
-                 <div className="w-full max-w-full">
-                   <GitHubContributions />
-                 </div>
-               </div>
-             </BlurFade>
            <BlurFade delay={BLUR_FADE_DELAY * 16}>
              <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {DATA.hackathons.map((project, id) => (
