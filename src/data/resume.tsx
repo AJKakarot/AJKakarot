@@ -8,7 +8,7 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://www.google.com/maps/place/New+Delhi",
   description:
-    "Full Stack Developer & Founding Engineer (2 years) specializing in GenAI, DevOps, and scalable backend systems. Shipped 10+ production products; 8x national hackathon winner/finalist; architecting systems for millions.",
+    "Full Stack Developer (GenAI, DevOps, Next.js/React Native, Scalable Systems) | 10+ Production Products | 8x National Hackathon Winner/Finalist",
   summary:
     "I'm **Divyansh Sharma**, a **Founding Engineer** and **Full Stack Developer** with **2 years** of experience specializing in **GenAI**, **DevOps**, and **scalable backend systems**. I've shipped **10+ production-grade products**, serving **1,000+ daily active users** and **2,500+ paying users**, and consistently placed as a **winner or finalist in 8 national-level hackathons**. I architect **scalable, production-grade software** on **AWS**, integrating **GenAI** into real-world applications and thriving under **extreme pressure**, turning ambitious ideas into systems that can scale to **millions**.",
   avatarUrl: "/me.png",
