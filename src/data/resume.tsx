@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full Stack Developer (GenAI, DevOps, Next.js/React Native, Scalable Systems) | 10+ Production Products | 8x National Hackathon Winner/Finalist",
   summary:
-    "I'm **Divyansh Sharma**, a **Founding Engineer** and **Full Stack Developer** with **2 years** of experience specializing in **GenAI**, **DevOps**, and **scalable backend systems**. I've shipped **10+ production-grade products**, serving **1,000+ daily active users** and **2,500+ paying users**, and consistently placed as a **winner or finalist in 8 national-level hackathons**. I architect **scalable, production-grade software** on **AWS**, integrating **GenAI** into real-world applications and thriving under **extreme pressure**, turning ambitious ideas into systems that can scale to **millions**.",
+    "I'm **Divyansh Sharma**, a **Founding Engineer** and **Full Stack Developer** with **2 years** in **GenAI**, **DevOps**, and **scalable systems**. I've shipped **10+ production products** serving **1,000+ daily users** and **2,500+ paying customers**, and I'm a **winner/finalist in 8 national hackathons**. I design **resilient, production-grade platforms**, weaving **GenAI** into real-world workflows and turning ambitious ideas into systems built to scale to **millions**.",
   avatarUrl: "/me.png",
   skills: [
     "React.js",
