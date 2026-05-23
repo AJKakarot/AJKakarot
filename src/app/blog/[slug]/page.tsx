@@ -1,5 +1,6 @@
 import { getBlogPosts, getPost } from "@/data/blog";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
@@ -53,28 +54,47 @@ export default async function Blog({
     notFound();
   }
 
+  const date = new Date(post.metadata.publishedAt).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   return (
-    <section id="blog">
-      <h1 className="title font-medium text-2xl tracking-tighter max-w-[650px]">
-        {post.metadata.title}
-      </h1>
-      <div className="flex justify-between items-center mt-2 mb-8 text-sm max-w-[650px]">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          {new Date(post.metadata.publishedAt).toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-          })}
-        </p>
-      </div>
+    <section id="blog" className="space-y-10">
+      <Link
+        href="/blog"
+        className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground transition-colors hover:text-foreground"
+      >
+        <span aria-hidden>←</span>
+        <span>All blog@s</span>
+      </Link>
+
+      <header className="max-w-[680px] space-y-4 border-b border-foreground/10 pb-8">
+        <time className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+          {date}
+        </time>
+        <h1 className="font-display text-4xl leading-[1.05] tracking-tight sm:text-5xl">
+          {post.metadata.title}
+        </h1>
+        {post.metadata.summary && (
+          <p className="text-pretty text-base leading-relaxed text-muted-foreground">
+            {post.metadata.summary}
+          </p>
+        )}
+      </header>
+
       <article
-        className="prose prose-neutral dark:prose-invert max-w-[650px] 
-        prose-headings:font-bold prose-h2:text-2xl prose-h3:text-xl 
-        prose-p:text-base prose-p:leading-7 prose-p:my-4
-        prose-pre:bg-gray-100 dark:prose-pre:bg-gray-900 
-        prose-code:text-sm prose-code:font-mono
-        prose-a:text-blue-600 dark:prose-a:text-blue-400
-        prose-strong:font-semibold prose-ul:my-4"
+        className="prose prose-neutral max-w-[680px] dark:prose-invert
+        prose-headings:font-display prose-headings:font-normal prose-headings:tracking-tight
+        prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-4
+        prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-3
+        prose-p:text-[16px] prose-p:leading-[1.75] prose-p:text-foreground/85
+        prose-li:text-[16px] prose-li:leading-[1.75] prose-li:text-foreground/85
+        prose-strong:font-semibold prose-strong:text-foreground
+        prose-a:text-foreground prose-a:underline prose-a:underline-offset-4 prose-a:decoration-foreground/30 hover:prose-a:decoration-foreground
+        prose-blockquote:border-l-foreground/30 prose-blockquote:font-normal prose-blockquote:not-italic prose-blockquote:text-foreground/70
+        prose-code:font-mono prose-code:text-[13px] prose-code:font-normal prose-code:before:content-none prose-code:after:content-none"
         dangerouslySetInnerHTML={{ __html: post.source }}
       />
     </section>
