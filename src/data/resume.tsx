@@ -124,7 +124,7 @@ export const DATA = {
       start: "Aug 2025",
       end: "Dec 2025",
       description:
-        "Built an enterprise AI platform with 12+ generative features (Virtual Try-On, Face Swap), implementing GPU-accelerated Canvas processing to reduce latency by 40%, migrating to Zustand architecture (66% code reduction, 70% fewer re-renders), architecting a hybrid database (MongoDB + Cloudflare D1 Edge) for 100M+ records, and engineering 40+ API endpoints with rate-limiting and webhook idempotency for async AI jobs (FAL.ai) and payments (Razorpay).",
+        "Shipped an enterprise GenAI platform with 12+ features (Virtual Try-On, Face Swap). Cut latency 40% with GPU Canvas processing, dropped re-renders 70% via Zustand, ran 100M+ records on MongoDB + Cloudflare D1, and wired 40+ APIs into FAL.ai and Razorpay.",
     },
      {
       company: "Modulus",
@@ -136,7 +136,7 @@ export const DATA = {
       start: "April 2025",
       end: "August 2025",
       description:
-        "Engineered and scaled cloud infrastructure to support 10x user growth (500+ active users), optimizing performance with Redis/Cloudflare dual-layer cache (82.15% hit ratio) and CI/CD pipeline automation, while developing an AI-powered recommendation engine (Langchain, Google Gemini) and zero-touch booking workflow (Razorpay & Cal.com) with resilient background job scheduling for low API latency.",
+        "Scaled infra through 10x user growth (500+ active). 82% cache hit via Redis + Cloudflare, CI/CD on autopilot. Built an AI recommender (Langchain, Gemini) and zero-touch bookings on Razorpay and Cal.com with resilient background jobs.",
     },
    {
       company: "Showtime",
@@ -148,7 +148,7 @@ export const DATA = {
       start: "Feb 2025",
       end: "June 2025",
       description:
-        "Integrated third-party game provider APIs to expand B2B service offerings and refactored backend APIs to resolve critical reliability issues, improving system stability and ensuring consistent performance for partner gaming platforms under diverse traffic conditions.",
+        "Integrated third-party game provider APIs for B2B expansion. Refactored flaky backend paths so partner platforms stopped paging.",
     },
     {
       company: "Code Inbound LLP",
@@ -160,7 +160,7 @@ export const DATA = {
       start: "Sep 2024",
       end: "Feb 2025",
       description:
-        "Engineered data-driven UI components for a large-scale Network Management System using React.js, Redux, and TypeScript to enhance real-time monitoring capabilities, while optimizing frontend performance through component refactoring and Redux state management refinement, resolving 20+ critical bugs and performance bottlenecks.",
+        "Built data-driven UI for a large Network Management System (React, Redux, TS). Tightened frontend perf with component and state refactors, closed out 20+ critical bugs.",
     },
     {
       company: "instoQR",
@@ -172,7 +172,7 @@ export const DATA = {
       start: "Jun 2024",
       end: "Sep 2024",
       description:
-        "Engineered the startup's core end-to-end QR ordering system using the MERN stack and shipped a full-stack table reservation feature with Express APIs and React/Redux frontend to improve partner restaurants' operational efficiency.",
+        "Built the startup's core QR ordering system on MERN. Shipped a full-stack table reservation feature so partner restaurants could turn tables faster.",
     },
     
   ],
@@ -201,7 +201,7 @@ export const DATA = {
       dates: "June 2025 - July 2025",
       active: true,
       description:
-        "Built a **multi-tenant SaaS** for Reddit automation with an **AI content engine**, smart scheduling, and **real-time keyword tracking**. Powered by a **producer-consumer backend** for async processing and a **Next.js dashboard** with live analytics and updates.",
+        "Multi-tenant SaaS for Reddit automation: AI content engine, smart scheduling, real-time keyword tracking. Producer-consumer backend handles async jobs; Next.js dashboard streams live analytics.",
        technologies: [
         "Next.js", "Node.js", "TypeScript", "Prisma", "PostgreSQL", "AWS", "Docker", "GenAI (LangChain)", "WebSockets", "Recharts",
       ],
@@ -222,7 +222,7 @@ export const DATA = {
       dates: "Jan 2025 - Feb 2025",
       active: true,
       description:
-        "Created a **real-time AI platform** that spots and tackles **online harassment**, with **automated evidence capture** and an **easy-to-use dashboard** for live insights.",
+        "Real-time AI platform that flags online harassment, captures evidence automatically, and surfaces it through a clean dashboard.",
            technologies: [
         "Next.js", "RAG", "Redis", "Docker", "Node.js", "MongoDB", "Puppeteer", "Prisma",
       ],
@@ -249,7 +249,7 @@ export const DATA = {
       dates: "June 2025",
       active: true,
       description:
-        "Built to solve the **biggest bottleneck in cold outreach**: slow, manual personalization and repetitive prompting. I engineered a **full-stack system** where users set up their **professional profile once**. The **Node.js backend** then synthesizes this saved context with recipient details, using a **sophisticated prompt strategy** to have the **Google Gemini API** generate **hyper-personalized emails instantly**, making outreach **significantly faster**.",
+        "Kills the slowest part of cold outreach: manual personalization. Set up your profile once; the Node backend fuses it with recipient context and Gemini drafts a hyper-personalized email in seconds.",
      technologies: [
     "Next.js", "Node.js", "TypeScript", "Google Gemini API",
   ],
@@ -274,7 +274,7 @@ export const DATA = {
       dates: "April 2025",
       active: true,
       description:
-        "Launched a **data-driven interview platform** that serves **real questions ranked by frequency** from over **200 top tech companies**. Its standout feature is a **generative AI 'Problem Solver,'** engineered to give users **contextual, non-spoiler hints** to guide their learning on difficult problems. The **responsive UI**, built with **Tailwind CSS and Framer Motion**, provides a **seamless experience** for data exploration and progress tracking.",
+        "Interview prep platform serving real questions ranked by frequency across 200+ tech companies. Standout feature: an AI 'Problem Solver' that gives contextual hints without spoiling the answer.",
       technologies: [
     "React", "TypeScript", "Node.js", "Generative AI", "Tailwind CSS", "Framer Motion",
   ],
@@ -300,8 +300,8 @@ export const DATA = {
       title: "LookTara",
       href: "https://looktara.com",
       dates: "Live",
-      description: "Role: Lead developer - AI personal photographer platform turning everyday snaps into studio-quality, ultra-realistic photos with platform-specific styles for LinkedIn, Tinder, etc., natural lighting, and full privacy controls.",
-      technologies: ["Role: Lead developer", "Next.js", "Tailwind", "Node.js", "Razorpay"],
+      description: "AI personal photographer turning everyday snaps into studio-quality, ultra-realistic photos. Platform-specific styles (LinkedIn, Tinder), natural lighting, full privacy controls.",
+      technologies: ["Next.js", "Tailwind", "Node.js", "Razorpay"],
       links: [
         { type: "Visit", href: "https://looktara.com", icon: <Icons.globe className="size-3" /> },
       ],
@@ -310,8 +310,8 @@ export const DATA = {
       title: "Modulus",
       href: "https://trymodulus.com",
       dates: "Live",
-      description: "Role: Full-stack & infra - AI-first operations platform with booking automation, recommendations, and observability dashboards.",
-      technologies: ["Role: Full-stack & infra", "Next.js", "Node.js", "PostgreSQL", "Redis"],
+      description: "AI-first ops platform: booking automation, recommendations, observability dashboards.",
+      technologies: ["Next.js", "Node.js", "PostgreSQL", "Redis"],
       links: [
         { type: "Visit", href: "https://trymodulus.com", icon: <Icons.globe className="size-3" /> },
       ],
@@ -320,8 +320,8 @@ export const DATA = {
       title: "Supereddit",
       href: "https://supereddit.com",
       dates: "Live",
-      description: "Role: Founder / full-stack - AI-powered Reddit automation SaaS for generating viral posts, scheduling content, keyword tracking, subreddit discovery, and live engagement analytics.",
-      technologies: ["Role: Founder / full-stack", "Next.js", "Prisma", "PostgreSQL", "AWS"],
+      description: "AI Reddit automation SaaS: viral post generation, scheduling, keyword tracking, subreddit discovery, live engagement analytics.",
+      technologies: ["Next.js", "Prisma", "PostgreSQL", "AWS"],
       links: [
         { type: "Visit", href: "https://supereddit.com", icon: <Icons.globe className="size-3" /> },
       ],
@@ -330,8 +330,8 @@ export const DATA = {
       title: "She Builds Ecosystem",
       href: "https://shebuildsecosystem.com",
       dates: "Live",
-      description: "Role: Full-stack - community hub for women founders with lead capture, CMS-driven storytelling, and event highlights.",
-      technologies: ["Role: Full-stack", "Next.js", "Tailwind", "CMS"],
+      description: "Community hub for women founders. Lead capture, CMS storytelling, event highlights.",
+      technologies: ["Next.js", "Tailwind", "CMS"],
       links: [
         { type: "Visit", href: "https://shebuildsecosystem.com", icon: <Icons.globe className="size-3" /> },
       ],
@@ -340,8 +340,8 @@ export const DATA = {
       title: "Chic Avenue",
       href: "https://chicavenue.in",
       dates: "Live",
-      description: "Role: Lead developer - fashion ecommerce with optimized PLP/PDP flow, payments, and order notifications.",
-      technologies: ["Role: Lead developer", "Next.js", "Tailwind", "Razorpay"],
+      description: "Fashion ecommerce: optimized PLP/PDP flow, payments, order notifications.",
+      technologies: ["Next.js", "Tailwind", "Razorpay"],
       links: [
         { type: "Visit", href: "https://chicavenue.in", icon: <Icons.globe className="size-3" /> },
       ],
@@ -350,8 +350,8 @@ export const DATA = {
       title: "Vikram Design Studio",
       href: "https://vikramdesignstudio.com",
       dates: "Live",
-      description: "Role: Frontend - portfolio site with case studies and high-speed image delivery for a design studio.",
-      technologies: ["Role: Frontend", "Next.js", "Tailwind", "Image CDN"],
+      description: "Portfolio site with case studies and fast image delivery for a design studio.",
+      technologies: ["Next.js", "Tailwind", "Image CDN"],
       links: [
         { type: "Visit", href: "https://vikramdesignstudio.com", icon: <Icons.globe className="size-3" /> },
       ],
@@ -360,8 +360,8 @@ export const DATA = {
       title: "Buzzy Bees",
       href: "https://buzzy-bees.com",
       dates: "Live",
-      description: "Role: Full-stack - kids brand storefront with playful UI, fast navigation, and mobile-first checkout.",
-      technologies: ["Role: Full-stack", "Next.js", "Tailwind", "Payments"],
+      description: "Kids brand storefront: playful UI, fast navigation, mobile-first checkout.",
+      technologies: ["Next.js", "Tailwind", "Payments"],
       links: [
         { type: "Visit", href: "https://buzzy-bees.com", icon: <Icons.globe className="size-3" /> },
       ],
@@ -370,8 +370,8 @@ export const DATA = {
       title: "Muskan Charitable Trust",
       href: "https://muskancharitabletrust.org",
       dates: "Live",
-      description: "Role: Full-stack - donation site with transparent impact sections, contact flows, and secure payments.",
-      technologies: ["Role: Full-stack", "Next.js", "Tailwind", "Payments"],
+      description: "Donation site with transparent impact sections, contact flows, and secure payments.",
+      technologies: ["Next.js", "Tailwind", "Payments"],
       links: [
         { type: "Visit", href: "https://muskancharitabletrust.org", icon: <Icons.globe className="size-3" /> },
       ],
@@ -380,8 +380,8 @@ export const DATA = {
       title: "Villa DMC",
       href: "https://villadmc.com",
       dates: "Live",
-      description: "Role: Full-stack - villa booking site with inquiry flows, media galleries, and lead routing to CRM.",
-      technologies: ["Role: Full-stack", "Next.js", "Tailwind", "Node.js"],
+      description: "Villa booking site: inquiry flows, media galleries, lead routing into CRM.",
+      technologies: ["Next.js", "Tailwind", "Node.js"],
       links: [
         { type: "Visit", href: "https://villadmc.com", icon: <Icons.globe className="size-3" /> },
       ],
