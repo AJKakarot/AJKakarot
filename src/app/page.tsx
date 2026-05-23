@@ -21,14 +21,15 @@ const HERO_STATS: { value: string; label: string }[] = [
 
 function SectionLabel({ number, title }: { number: string; title: string }) {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2.5">
+      <span className="inline-flex w-fit items-center gap-1.5 rounded-sm border border-[hsl(var(--spidey-red)/0.4)] bg-[hsl(var(--spidey-red)/0.06)] px-2 py-0.5 text-[9px] uppercase tracking-[0.24em] text-[hsl(var(--spidey-red))]">
+        <span className="normal-only">Chapter {number}</span>
+        <span className="venom-only">Fragment {number}</span>
+      </span>
       <div className="flex items-center gap-3">
-        <span className="text-[10px] uppercase tracking-[0.18em] text-[hsl(var(--spidey-red))]">
-          //&nbsp;{number}
-        </span>
+        <h2 className="font-display text-3xl tracking-tight">{title}</h2>
         <span aria-hidden className="h-px flex-1 bg-foreground/10" />
       </div>
-      <h2 className="font-display text-3xl tracking-tight">{title}</h2>
     </div>
   );
 }
@@ -58,15 +59,18 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY}>
             <div className="flex items-center gap-2.5 text-[hsl(var(--spidey-red))]">
               <SpiderEmblem className="shrink-0" size={14} />
-              <span className="text-[10px] uppercase tracking-[0.2em]">
+              <span className="normal-only text-[10px] uppercase tracking-[0.2em]">
                 Friendly neighborhood / Portfolio 2026
+              </span>
+              <span className="venom-only text-[10px] uppercase tracking-[0.2em]">
+                We are Venom / Portfolio 2026
               </span>
             </div>
           </BlurFade>
           <div className="flex flex-col gap-y-6">
             <BlurFadeText
               delay={BLUR_FADE_DELAY * 2}
-              className="font-display text-5xl leading-[1.05] tracking-tight sm:text-6xl xl:text-7xl"
+              className="hero-name font-display text-5xl leading-[1.05] tracking-tight sm:text-6xl xl:text-7xl bg-gradient-to-r from-[hsl(var(--spidey-red))] via-foreground to-[hsl(var(--spidey-blue))] bg-clip-text text-transparent"
               yOffset={8}
               text={`Hi, I'm ${DATA.name.split(" ")[0]}.`}
             />
@@ -98,7 +102,18 @@ export default function Page() {
           <SectionLabel number="01" title="About" />
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-[15px] leading-relaxed text-foreground/80 dark:prose-invert">
+          <Markdown
+            className={[
+              "prose max-w-full text-pretty font-sans text-[15px] leading-relaxed text-foreground/80 dark:prose-invert",
+              "[&_p:first-of-type:first-letter]:float-left",
+              "[&_p:first-of-type:first-letter]:mr-2",
+              "[&_p:first-of-type:first-letter]:mt-1",
+              "[&_p:first-of-type:first-letter]:font-display",
+              "[&_p:first-of-type:first-letter]:text-[3.6rem]",
+              "[&_p:first-of-type:first-letter]:leading-[0.85]",
+              "[&_p:first-of-type:first-letter]:text-[hsl(var(--spidey-red))]",
+            ].join(" ")}
+          >
             {DATA.summary}
           </Markdown>
         </BlurFade>
@@ -303,6 +318,25 @@ export default function Page() {
                 href={`mailto:${DATA.contact.email}`}
               />
             </div>
+            <p className="normal-only mt-10 max-w-xl border-l-2 border-[hsl(var(--spidey-red))] pl-4 font-display text-base italic leading-relaxed text-foreground/55">
+              With great power comes great responsibility.
+              <span className="ml-2 text-[10px] not-italic uppercase tracking-[0.2em] text-foreground/35">
+                (Ben Parker, paraphrased)
+              </span>
+            </p>
+            <p className="venom-only mt-10 max-w-xl border-l-2 border-foreground pl-4 font-display text-base italic leading-relaxed text-foreground/70">
+              We are Venom. We are not your friend.
+              <span className="ml-2 text-[10px] not-italic uppercase tracking-[0.2em] text-foreground/40">
+                (Eddie Brock)
+              </span>
+            </p>
+            <p className="mt-8 flex flex-wrap items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-foreground/30">
+              <span className="normal-only">Psst, try</span>
+              <span className="venom-only">Symbiote leash</span>
+              <span className="font-mono normal-case tracking-normal text-foreground/45">
+                ↑ ↑ ↓ ↓ ← → ← →
+              </span>
+            </p>
           </div>
         </BlurFade>
       </section>
@@ -336,7 +370,8 @@ function ContactRow({
         aria-hidden
         className="font-display text-lg italic text-foreground/40 transition-all group-hover:translate-x-1 group-hover:text-foreground"
       >
-        →
+        <span className="normal-only">→</span>
+        <span className="venom-only text-base not-italic tracking-tight">▶▶</span>
       </span>
     </Link>
   );

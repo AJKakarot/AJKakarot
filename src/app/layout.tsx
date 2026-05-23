@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import { Spider } from "@/components/spider";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { VenomMode } from "@/components/venom-mode";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -73,6 +74,7 @@ export default function RootLayout({
             <Analytics />
             <Navbar />
             <Spider />
+            <VenomMode />
           </TooltipProvider>
         </ThemeProvider>
       </body>

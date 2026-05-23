@@ -48,10 +48,14 @@ export default function Navbar() {
       <nav
         aria-label="Primary"
         className={cn(
-          "pointer-events-auto flex items-center gap-0.5 rounded-full",
+          "pointer-events-auto relative flex items-center gap-0.5 rounded-full",
           "border border-foreground/10 bg-background/80 px-2 py-1.5",
           "shadow-[0_1px_2px_rgba(0,0,0,0.04),0_8px_24px_-12px_rgba(0,0,0,0.12)]",
-          "backdrop-blur-xl dark:bg-background/60"
+          "backdrop-blur-xl dark:bg-background/60",
+          "before:pointer-events-none before:absolute before:left-1/2 before:top-0",
+          "before:h-px before:w-1/3 before:-translate-x-1/2",
+          "before:bg-gradient-to-r before:from-transparent before:via-[hsl(var(--spidey-red))] before:to-transparent",
+          "before:opacity-70"
         )}
       >
         {DATA.navbar.map((item) => (

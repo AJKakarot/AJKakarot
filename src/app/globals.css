@@ -70,6 +70,54 @@
       --spidey-red: 358 80% 58%;
       --spidey-blue: 220 70% 60%;
     }
+
+    body.venom {
+      --background: 0 0% 3%;
+      --foreground: 0 0% 97%;
+      --card: 0 0% 3%;
+      --card-foreground: 0 0% 97%;
+      --muted: 0 0% 10%;
+      --muted-foreground: 0 0% 72%;
+      --border: 0 0% 18%;
+      --spidey-red: 0 0% 97%;
+      --spidey-blue: 0 0% 97%;
+    }
+
+    body.venom .prose :where(a):not(:where([class~="not-prose"] *)) {
+      color: hsl(0 0% 97%);
+      text-decoration-color: hsl(0 0% 60%);
+    }
+    body.venom .prose :where(strong):not(:where([class~="not-prose"] *)) {
+      color: hsl(0 0% 97%);
+    }
+
+    body.venom .normal-only { display: none !important; }
+    body:not(.venom) .venom-only { display: none !important; }
+
+    /* Custom symbiote-drip cursor when bonded */
+    body.venom {
+      cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'><path d='M14 2 Q18 7 17 11 Q20 13 19 17 Q21 19 19 22 L17 26 L15 22 L14 26 L13 22 L11 26 L9 22 Q7 19 9 17 Q8 13 11 11 Q10 7 14 2 Z' fill='white' stroke='black' stroke-width='0.6'/></svg>") 14 14, auto;
+    }
+    body.venom a,
+    body.venom button,
+    body.venom [role="button"] {
+      cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'><path d='M14 2 Q18 7 17 11 Q20 13 19 17 Q21 19 19 22 L17 26 L15 22 L14 26 L13 22 L11 26 L9 22 Q7 19 9 17 Q8 13 11 11 Q10 7 14 2 Z' fill='black' stroke='white' stroke-width='0.8'/></svg>") 14 14, pointer;
+    }
+
+    /* Subtle off-axis tilt: things have gone wrong */
+    body.venom main {
+      transform: rotate(0.35deg);
+      transform-origin: 50% 0;
+      will-change: transform;
+    }
+
+    /* Hero name glow + drip shadow when bonded */
+    body.venom .hero-name {
+      text-shadow:
+        0 0 14px hsl(0 0% 100% / 0.18),
+        0 6px 16px hsl(0 0% 100% / 0.12),
+        0 14px 22px hsl(0 0% 100% / 0.08);
+    }
   }
 
   @layer base {
@@ -78,6 +126,29 @@
     }
     body {
       @apply bg-background text-foreground;
+      position: relative;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.07;
+      mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='6' height='6' viewBox='0 0 6 6'><circle cx='1' cy='1' r='0.55' fill='black'/><circle cx='4' cy='4' r='0.55' fill='black'/></svg>");
+      background-size: 6px 6px;
+      -webkit-mask-image: radial-gradient(ellipse at center, transparent 30%, black 95%);
+              mask-image: radial-gradient(ellipse at center, transparent 30%, black 95%);
+    }
+    .dark body::after {
+      opacity: 0.1;
+      mix-blend-mode: screen;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='6' height='6' viewBox='0 0 6 6'><circle cx='1' cy='1' r='0.55' fill='white'/><circle cx='4' cy='4' r='0.55' fill='white'/></svg>");
+    }
+    body.venom::after {
+      mix-blend-mode: screen;
+      opacity: 0.12;
     }
   }
 
