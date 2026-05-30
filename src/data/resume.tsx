@@ -115,6 +115,18 @@ export const DATA = {
 
   work: [
      {
+      company: "SalesDuo Inc",
+      href: "https://www.salesduo.com",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer Intern",
+      logoUrl: "/SalesDuoLogo.png",
+      start: "March 2026",
+      end: "Present",
+      description:
+        "Building features across a multi-service architecture: a multi-tenant SaaS core (Express, TypeScript, Sequelize) and an LLM-powered listings and brand-store optimizer (Python) behind a shared nginx gateway. Shipped end to end on AWS (ECS, ALB, RDS Postgres, Redis) with GitHub Actions CI/CD. Cut LLM cost and latency by reusing analyzed context across pipeline stages, designed steps to fail gracefully so one bad scrape or LLM call won't crash a run, and delivered a PRD-driven brand-store generation feature from schema and migrations through multi-stage content generation.",
+    },
+     {
       company: "MarkupX Brands",
       href: "https://www.markupxbrands.com",
       badges: [],
@@ -124,7 +136,7 @@ export const DATA = {
       start: "Aug 2025",
       end: "Dec 2025",
       description:
-        "Shipped an enterprise GenAI platform with 12+ features (Virtual Try-On, Face Swap). Cut latency 40% with GPU Canvas processing, dropped re-renders 70% via Zustand, ran 100M+ records on MongoDB + Cloudflare D1, and wired 40+ APIs into FAL.ai and Razorpay.",
+        "Shipped an enterprise GenAI platform with 12+ AI features like Virtual Try-On and Face Swap. Cut generation latency 40% with GPU processing, dropped re-renders 70% with Zustand, scaled to 100M+ records on MongoDB and Cloudflare D1, and integrated 40+ APIs including FAL.ai and Razorpay.",
     },
      {
       company: "Modulus",
