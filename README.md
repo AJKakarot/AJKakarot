@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=600&height=70&duration=2000&lines=Welcome+to+my+Profile!+✨;I'm+Ajeet+Gupta!;A+Passionate+Developer;From+India+🇮🇳" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=600&height=70&duration=2000&lines=Welcome+to+my+Profile!+✨;I'm+Ajeet+Gupta!;Full+Stack+AI+Engineer;From+India+🇮🇳" />
 </h1>
 
 <div align="center">
@@ -7,78 +7,141 @@
 </div>
 
 <div align="center">
-  <p>🤖 <strong>Building cool stuff every day</strong></p>
+  <p>🤖 <strong>Building scalable, AI-powered apps — one commit at a time</strong></p>
   <p>📫 Need something done? <strong><a href="mailto:gajeet031@gmail.com">Hit me up!</a></strong></p>
   <p>
     <a href="https://github.com/AJKakarot"><img src="https://img.shields.io/badge/GitHub-AJKakarot-181717?style=for-the-badge&logo=github"/></a>
     <a href="https://www.linkedin.com/in/ajeet-gupta-99aa6b281/"><img src="https://img.shields.io/badge/LinkedIn-Ajeet_Gupta-0A66C2?style=for-the-badge&logo=linkedin"/></a>
     <a href="https://medium.com/@2301661530002"><img src="https://img.shields.io/badge/Medium-AjeetGupta-12100E?style=for-the-badge&logo=medium"/></a>
+    <a href="https://x.com/butter69168"><img src="https://img.shields.io/badge/X-@butter69168-000000?style=for-the-badge&logo=x"/></a>
   </p>
 </div>
 
 ---
 
+## 🧠 About Me
+
+```ts
+const ajeet = {
+  role: "Full Stack Developer → Full Stack AI Engineer",
+  college: "Dr. AITD Kanpur | B.Tech CSE (AI & ML) | CGPA: 8.01",
+  dsaSolved: "890+ problems | LeetCode Top 10%",
+  currentlyLearning: ["LLMs", "LangChain", "LangGraph", "Ollama", "TensorFlow"],
+  hackathons: ["🏆 CodeMatrix: Genesis Winner", "🏆 ArcticX Winter TechSprint Winner"],
+  funFact: "2x Hackathon Winner who debugs with console.log and vibes ☕🎮"
+};
+```
+
+---
+
 ## 🛠 Skills & Tools
 
-<div align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white" />
-</div>
+**Languages**  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Frontend**  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+
+**Backend**  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+
+**Databases & Cloud**  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**AI / ML**  
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ---
 
 ## 💼 Experience
 
-### Modulus | Full-Stack Development Intern
-**Aug 2025 – Nov 2025**  
+### 🏢 IBM | Cloud Computing Virtual Intern
+**Feb 2026 – Mar 2026 · Remote**
+- Learned **IBM Cloud** & **AWS** fundamentals: IaaS / PaaS / SaaS, virtualization, containers.
+- Hands-on with **Docker**, **Linux**, and shell scripting for deployment-style workflows.
 
-- Built responsive interfaces using HTML/CSS, Tailwind CSS, and React.js.  
-- Developed server-side applications with Node.js, Express.js, integrating REST APIs, authentication & authorization.  
-- Worked with MongoDB & SQL databases for schema design, data management, and query optimization.  
-- Collaborated to deliver scalable, maintainable, and efficient code.  
+### 🏢 Modulus | Full-Stack Development Intern
+**Aug 2025 – Nov 2025 · Remote**
+- Built responsive UIs with **React**, **TailwindCSS**; developed REST APIs with **Node.js** + **Express.js**.
+- Integrated **JWT** auth with role-based access control.
+- Worked with **MongoDB** & **SQL** — schema design, indexing, and query optimization.
 
-### Technical Coordinator & Web Developer | E-Cell, Dr. AITD
+### 🏢 E-Cell, Dr. AITD | Technical Coordinator & Backend Engineer
+**Sep 2024 – Present · On-site**
+- Built **NextHire** backend: 5 microservices (Auth, User, Job, Payment, Utils) using **Node**, **Express**, **TypeScript**.
+- Integrated **Kafka**, **Redis**, **Cloudinary**, **Razorpay**, and **Gemini API** for resume & career tools.
 
-- Led end-to-end development of a full-stack MERN website.  
-- Managed technical workflow and mentored peers for best practices.  
+### 🏢 GeeksforGeeks | Campus Mantri
+**Jan 2026 – Present · Remote**
+- Driving **GFG** learning adoption on campus; organizing events and acting as liaison between students and GeeksforGeeks.
 
 ---
 
-## 📂 Projects
+## 📂 Featured Projects
 
-### [CashTrackr – Intelligent Finance Dashboard](https://cash-trackr-3mhg-h0j75yy47-ajeets-projects-0160f38e.vercel.app)  
-*Next.js 15, React, TailwindCSS, shadcn/ui | Aug 2025*  
-- AI-driven finance dashboard for real-time budget tracking.  
-- Interactive UI using shadcn/ui + Framer Motion; backend APIs with Node.js, Express.js, Prisma/MongoDB.  
-- Deployed on Vercel; optimized for performance and SEO.  
+### 🔍 [ResumeAI](https://nexthires.app/) — AI-Powered Resume & ATS Scoring
+*Next.js · Clerk · Supabase · Gemini API · Hugging Face · TailwindCSS*
+- Resume scoring, ATS analysis, and career tools with server-side AI (Gemini paid / Hugging Face free).
+- API keys stay server-only; no client-side leaks.
 
-### [BytesBlog - Blog Platform](https://bytesblog.onrender.com)  
-*React, TailwindCSS, Node.js, Express.js, MongoDB, Cloudinary, JWT | Apr 2025*  
-- Full-stack blogging platform with CRUD operations & JWT authentication.  
-- Responsive and interactive UI.  
-- Backend with Node.js, Express.js, MongoDB, Cloudinary.  
+### 🏥 [SehatLink](https://sehat-link-nidm.vercel.app/) — Telemedicine Platform
+*Next.js · PostgreSQL · Prisma · Gemini API*
+- Doctors, bookings, video consults with RBAC; Gemini-powered symptom guidance (safety-limited).
+
+### 💰 [CashTrackr](https://cash-trackr-rllkic01y-ajeets-projects-0160f38e.vercel.app) — Intelligent Finance Dashboard
+*Next.js 15 · Prisma · MongoDB · Gemini · Framer Motion · shadcn/ui*
+- Real-time budget tracking with AI-driven spending insights and smooth animations.
+
+### 📚 [studyMeet](https://study-meet.vercel.app/) — MERN Learning Platform
+*React 18 · Redux Toolkit · Node.js · Express · MongoDB · Razorpay · Cloudinary*
+- Full course catalog, enrollments, Razorpay checkout, JWT sessions, RBAC (student/instructor/admin), Cloudinary uploads.
+
+### 🔐 [MERN Authentication](https://github.com/AJKakarot/Mern-Authentication)
+*React 19 · Node.js · MongoDB · Redis · JWT · CSRF*
+- Email verify + OTP, JWT access/refresh with httpOnly cookies, Redis sessions, CSRF protection.
 
 ---
 
 ## 🎓 Education
 
 **B.Tech CSE in Artificial Intelligence & Machine Learning**  
-Dr. Ambedkar Institute of Technology for Divyangjan | Sep 2023 – Aug 2027  
+Dr. Ambedkar Institute of Technology for Divyangjan, Kanpur | Sep 2023 – Aug 2027 | **CGPA: 8.01**
 
 ---
 
-## 🎯 Achievements & Activities
+## 🏆 Achievements
 
-- **Web Developer, E-Cell Dr.AITD** – Built a full-stack website with dynamic features & secure authentication.  
-- **GeeksforGeeks Contest Achievement** – Recognized for solving daily coding challenges (T-shirt award).  
+- 🥇 **CodeMatrix: Genesis Hackathon Winner** — Top teams, 500+ participants
+- 🥇 **ArcticX Winter TechSprint Hackathon Winner** — 300+ participants (Jan 2026)
+- ✍️ **Published on GeeksforGeeks** — Article on developer demand & AI impact (Apr 2026)
+- 👕 **GeeksforGeeks Daily Challenge** — T-shirt award for solving daily coding challenges
+- 💻 **890+ DSA Problems Solved** | LeetCode Top 10%
+
+---
+
+## 📜 Certifications
+
+- 🏅 **IBM Cloud Computing** — IBM Skills Network (Mar 2026)
+- 🏅 **Google Skills — Diamond League** — Google (2025)
+- 🏅 **AWS Cloud Practitioner** — GeeksforGeeks (2025)
+- 🏅 **MERN Stack Full Course** — Udemy, 22 hours (2025)
 
 ---
 
@@ -93,4 +156,4 @@ Dr. Ambedkar Institute of Technology for Divyangjan | Sep 2023 – Aug 2027
 
 ## ⚡ Fun Fact
 
-- Coffee enthusiast ☕ | Gamer 🎮 | Always learning new tech 🚀
+2x Hackathon Winner 🏆 | Coffee-fueled coder ☕ | Gamer when the builds are passing 🎮 | Currently teaching machines to think so I don't have to 🤖
