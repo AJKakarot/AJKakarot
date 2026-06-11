@@ -1,190 +1,159 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=600&height=70&duration=2000&lines=Welcome+to+my+Profile!+✨;I'm+Ajeet+Gupta!;Full+Stack+AI+Engineer;From+India+🇮🇳" />
+</h1>
+
 <div align="center">
+  <img align="center" alt="Coding Vibes" width="400" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif">
+</div>
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║   ██████╗      ██╗███████╗███████╗████████╗                  ║
-║   ██╔══██╗    ██╔╝██╔════╝██╔════╝╚══██╔══╝                  ║
-║   ███████║   ██╔╝ █████╗  █████╗     ██║                     ║
-║   ██╔══██║  ██╔╝  ██╔══╝  ██╔══╝     ██║                     ║
-║   ██║  ██║ ██╔╝   ███████╗███████╗   ██║                     ║
-║   ╚═╝  ╚═╝ ╚═╝    ╚══════╝╚══════╝   ╚═╝                     ║
-║                                                               ║
-║         [ FULL STACK AI ENGINEER — INITIALIZING... ]         ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&center=true&vCenter=true&width=700&height=60&duration=3000&color=00FF41&background=000000&lines=root%40ajeet%3A~%24+whoami;%3E+Full+Stack+AI+Engineer;%3E+2x+Hackathon+Winner+%F0%9F%8F%86;%3E+890%2B+DSA+Problems+Solved;%3E+Building+the+future%2C+one+commit+at+a+time..." />
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/-%20AJKakarot-0d1117?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0d1117)](https://github.com/AJKakarot)
-[![LinkedIn](https://img.shields.io/badge/-%20Ajeet%20Gupta-0d1117?style=for-the-badge&logo=linkedin&logoColor=00FF41&labelColor=0d1117)](https://www.linkedin.com/in/ajeet-gupta-99aa6b281/)
-[![Portfolio](https://img.shields.io/badge/-%20nexthires.app-0d1117?style=for-the-badge&logo=vercel&logoColor=00FF41&labelColor=0d1117)](https://nexthires.app/)
-[![Medium](https://img.shields.io/badge/-%20Medium-0d1117?style=for-the-badge&logo=medium&logoColor=00FF41&labelColor=0d1117)](https://medium.com/@2301661530002)
-[![X](https://img.shields.io/badge/-%20@butter69168-0d1117?style=for-the-badge&logo=x&logoColor=00FF41&labelColor=0d1117)](https://x.com/butter69168)
-
+<div align="center">
+  <p>🤖 <strong>Building scalable, AI-powered apps — one commit at a time</strong></p>
+  <p>📫 Need something done? <strong><a href="mailto:gajeet031@gmail.com">Hit me up!</a></strong></p>
+  <p>
+    <a href="https://github.com/AJKakarot"><img src="https://img.shields.io/badge/GitHub-AJKakarot-181717?style=for-the-badge&logo=github"/></a>
+    <a href="https://www.linkedin.com/in/ajeet-gupta-99aa6b281/"><img src="https://img.shields.io/badge/LinkedIn-Ajeet_Gupta-0A66C2?style=for-the-badge&logo=linkedin"/></a>
+    <a href="https://medium.com/@2301661530002"><img src="https://img.shields.io/badge/Medium-AjeetGupta-12100E?style=for-the-badge&logo=medium"/></a>
+    <a href="https://x.com/butter69168"><img src="https://img.shields.io/badge/X-@butter69168-000000?style=for-the-badge&logo=x"/></a>
+  </p>
 </div>
 
 ---
 
-<div align="center">
+## 🧠 About Me
 
-```bash
-┌─────────────────────────────────────────────────────────────┐
-│                    SYSTEM PROFILE v2026                     │
-├─────────────────────────────────────────────────────────────┤
-│  NAME       →  Ajeet Gupta                                  │
-│  ROLE       →  Full Stack Developer → Full Stack AI Eng.    │
-│  COLLEGE    →  Dr. AITD Kanpur | B.Tech CSE (AI & ML)       │
-│  CGPA       →  8.01 / 10.0                                  │
-│  DSA        →  890+ problems | LeetCode Top 10%             │
-│  STATUS     →  [ ACTIVELY BUILDING & LEARNING ]             │
-│  LOCATION   →  Kanpur, Uttar Pradesh, India 🇮🇳              │
-└─────────────────────────────────────────────────────────────┘
+```ts
+const ajeet = {
+  role: "Full Stack Developer → Full Stack AI Engineer",
+  college: "Dr. AITD Kanpur | B.Tech CSE (AI & ML) | CGPA: 8.01",
+  dsaSolved: "890+ problems | LeetCode Top 10%",
+  currentlyLearning: ["LLMs", "LangChain", "LangGraph", "Ollama", "TensorFlow"],
+  hackathons: ["🏆 CodeMatrix: Genesis Winner", "🏆 ArcticX Winter TechSprint Winner"],
+  funFact: "2x Hackathon Winner who debugs with console.log and vibes ☕🎮"
+};
 ```
 
+---
+
+## 🛠 Skills & Tools
+
+**Languages**  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Frontend**  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+
+**Backend**  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+
+**Databases & Cloud**  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**AI / ML**  
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+---
+
+## 💼 Experience
+
+### 🏢 IBM | Cloud Computing Virtual Intern
+**Feb 2026 – Mar 2026 · Remote**
+- Learned **IBM Cloud** & **AWS** fundamentals: IaaS / PaaS / SaaS, virtualization, containers.
+- Hands-on with **Docker**, **Linux**, and shell scripting for deployment-style workflows.
+
+### 🏢 Modulus | Full-Stack Development Intern
+**Aug 2025 – Nov 2025 · Remote**
+- Built responsive UIs with **React**, **TailwindCSS**; developed REST APIs with **Node.js** + **Express.js**.
+- Integrated **JWT** auth with role-based access control.
+- Worked with **MongoDB** & **SQL** — schema design, indexing, and query optimization.
+
+### 🏢 E-Cell, Dr. AITD | Technical Coordinator & Backend Engineer
+**Sep 2024 – Present · On-site**
+- Built **NextHire** backend: 5 microservices (Auth, User, Job, Payment, Utils) using **Node**, **Express**, **TypeScript**.
+- Integrated **Kafka**, **Redis**, **Cloudinary**, **Razorpay**, and **Gemini API** for resume & career tools.
+
+### 🏢 GeeksforGeeks | Campus Mantri
+**Jan 2026 – Present · Remote**
+- Driving **GFG** learning adoption on campus; organizing events and acting as liaison between students and GeeksforGeeks.
+
+---
+
+## 📂 Featured Projects
+
+### 🔍 [ResumeAI](https://nexthires.app/) — AI-Powered Resume & ATS Scoring
+*Next.js · Clerk · Supabase · Gemini API · Hugging Face · TailwindCSS*
+- Resume scoring, ATS analysis, and career tools with server-side AI (Gemini paid / Hugging Face free).
+- API keys stay server-only; no client-side leaks.
+
+### 🏥 [SehatLink](https://sehat-link-nidm.vercel.app/) — Telemedicine Platform
+*Next.js · PostgreSQL · Prisma · Gemini API*
+- Doctors, bookings, video consults with RBAC; Gemini-powered symptom guidance (safety-limited).
+
+### 💰 [CashTrackr](https://cash-trackr-rllkic01y-ajeets-projects-0160f38e.vercel.app) — Intelligent Finance Dashboard
+*Next.js 15 · Prisma · MongoDB · Gemini · Framer Motion · shadcn/ui*
+- Real-time budget tracking with AI-driven spending insights and smooth animations.
+
+### 📚 [studyMeet](https://study-meet.vercel.app/) — MERN Learning Platform
+*React 18 · Redux Toolkit · Node.js · Express · MongoDB · Razorpay · Cloudinary*
+- Full course catalog, enrollments, Razorpay checkout, JWT sessions, RBAC (student/instructor/admin), Cloudinary uploads.
+
+### 🔐 [MERN Authentication](https://github.com/AJKakarot/Mern-Authentication)
+*React 19 · Node.js · MongoDB · Redis · JWT · CSRF*
+- Email verify + OTP, JWT access/refresh with httpOnly cookies, Redis sessions, CSRF protection.
+
+---
+
+## 🎓 Education
+
+**B.Tech CSE in Artificial Intelligence & Machine Learning**  
+Dr. Ambedkar Institute of Technology for Divyangjan, Kanpur | Sep 2023 – Aug 2027 | **CGPA: 8.01**
+
+---
+
+## 🏆 Achievements
+
+- 🥇 **CodeMatrix: Genesis Hackathon Winner** — Top teams, 500+ participants
+- 🥇 **ArcticX Winter TechSprint Hackathon Winner** — 300+ participants (Jan 2026)
+- ✍️ **Published on GeeksforGeeks** — Article on developer demand & AI impact (Apr 2026)
+- 👕 **GeeksforGeeks Daily Challenge** — T-shirt award for solving daily coding challenges
+- 💻 **890+ DSA Problems Solved** | LeetCode Top 10%
+
+---
+
+## 📜 Certifications
+
+- 🏅 **IBM Cloud Computing** — IBM Skills Network (Mar 2026)
+- 🏅 **Google Skills — Diamond League** — Google (2025)
+- 🏅 **AWS Cloud Practitioner** — GeeksforGeeks (2025)
+- 🏅 **MERN Stack Full Course** — Udemy, 22 hours (2025)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AJKakarot&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AJKakarot&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="400"/>
 </div>
 
 ---
 
-## `$ cat about_me.txt`
+## ⚡ Fun Fact
 
-> I'm a **Full Stack Developer** actively transitioning into a **Full Stack AI Engineer** — building production-grade, scalable SaaS applications and AI-powered systems from scratch.
->
-> I specialize in **React / Next.js / Node.js** on the full stack, and I'm currently deep-diving into **LLMs, LangChain, LangGraph, Ollama, and Python ML/AI** to build intelligent applications that actually work in the real world.
->
-> 10+ production projects shipped. 2x Hackathon Winner. Published on GeeksforGeeks. Still hungry. 🔥
-
----
-
-## `$ ls ./experience/`
-
-```
-drwxr-xr-x  IBM/               # Cloud Computing Virtual Intern
-drwxr-xr-x  Modulus/           # Full-Stack Development Intern
-drwxr-xr-x  E-Cell-AITD/       # Technical Coordinator & Backend Engineer
-drwxr-xr-x  GeeksforGeeks/     # Campus Mantri
-```
-
-### 🖥 IBM — Cloud Computing Virtual Intern
-`Feb 2026 – Mar 2026 · Remote`
-```
-✦ IBM Cloud & AWS fundamentals — IaaS / PaaS / SaaS, virtualization, containers
-✦ Hands-on Docker, Linux, shell scripting for deployment workflows
-✦ Certified: IBM Cloud Computing (Mar 2026)
-```
-
-### 🖥 Modulus — Full-Stack Development Intern
-`Aug 2025 – Nov 2025 · Remote`
-```
-✦ Shipped production features with React, Node.js, Express.js
-✦ Built JWT APIs with role-based access control
-✦ MongoDB & SQL — schema design, indexing, query optimization
-```
-
-### 🖥 E-Cell, Dr. AITD — Technical Coordinator & Backend Engineer
-`Sep 2024 – Present · On-site`
-```
-✦ Architected NextHire backend: 5 microservices in Node + Express + TypeScript
-   └── Auth, User, Job, Payment, Utils services
-✦ Integrated Kafka + Redis for async messaging & caching
-✦ Plugged in Cloudinary, Razorpay, Gemini API for resumes & career tools
-✦ PostgreSQL (Neon) as primary database with full JWT auth layer
-```
-
-### 🖥 GeeksforGeeks — Campus Mantri
-`Jan 2026 – Present · Remote`
-```
-✦ Driving GFG learning adoption across campus
-✦ Organizing coding events & bridging students ↔ GeeksforGeeks
-```
-
----
-
-## `$ ls ./projects/ -la`
-
-<div align="center">
-
-| Project | Stack | Live |
-|--------|-------|------|
-| 🔍 **ResumeAI** — AI Resume & ATS Scorer | Next.js · Clerk · Supabase · Gemini · HuggingFace | [↗ nexthires.app](https://nexthires.app/) |
-| 🏥 **SehatLink** — Telemedicine Platform | Next.js · PostgreSQL · Prisma · Gemini API | [↗ Live](https://sehat-link-nidm.vercel.app/) |
-| 💰 **CashTrackr** — Finance Dashboard | Next.js 15 · Prisma · MongoDB · Gemini · Framer Motion | [↗ Live](https://cash-trackr-rllkic01y-ajeets-projects-0160f38e.vercel.app) |
-| 📚 **studyMeet** — MERN Learning Platform | React 18 · Redux · Node · Razorpay · Cloudinary | [↗ Live](https://study-meet.vercel.app/) |
-| 🔐 **MERN Authentication** — Auth System | React 19 · Redis · JWT · CSRF · httpOnly Cookies | [↗ GitHub](https://github.com/AJKakarot/Mern-Authentication) |
-| 📝 **BytesBlog** — Blog Platform | MERN · Cloudinary · JWT | [↗ Live](https://bytesblog.onrender.com) |
-
-</div>
-
----
-
-## `$ cat skills.json`
-
-```json
-{
-  "languages":   ["TypeScript", "JavaScript", "C/C++", "Java", "Python"],
-  "frontend":    ["React.js", "Next.js", "Redux Toolkit", "TailwindCSS", "shadcn/ui", "Framer Motion"],
-  "backend":     ["Node.js", "Express.js", "Spring Boot", "REST API", "JWT", "Kafka"],
-  "databases":   ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Prisma", "Supabase"],
-  "devops":      ["Docker", "AWS EC2/S3", "GitHub Actions", "CI/CD", "Vercel", "Render", "Linux"],
-  "ai_ml":       ["LangChain", "LangGraph", "Ollama", "Gemini API", "Scikit-Learn", "TensorFlow"],
-  "tools":       ["Git", "Postman", "Cloudinary", "Razorpay", "Clerk", "Nodemailer"]
-}
-```
-
----
-
-## `$ cat achievements.log`
-
-```
-[2026-04] ✍  Published on GeeksforGeeks — "Will Developer Demand Increase or Decrease?"
-[2026-01] 🏆  ArcticX Winter TechSprint Hackathon — WINNER (300+ participants)
-[2025]    🏆  CodeMatrix: Genesis Hackathon — WINNER (500+ participants)
-[2025]    🎽  GeeksforGeeks Daily Coding Challenge — T-Shirt Award
-[2025]    💎  Google Skills — Diamond League
-[2025]    ☁   AWS Cloud Practitioner Certified (GFG)
-[2026-03] 📜  IBM Cloud Computing Certified
-[ongoing] 💻  890+ DSA problems | LeetCode Top 10%
-```
-
----
-
-## `$ neofetch --stats`
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AJKakarot&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AJKakarot&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00FF41&text_color=c9d1d9" width="48%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AJKakarot&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" width="60%" />
-</div>
-
----
-
-## `$ echo $FUN_FACT`
-
-```
-> 2x Hackathon Winner who ships faster than his Wi-Fi 🏆
-> Trains ML models by day, debugs Node.js at 2AM by night 🌙
-> console.log("still not fixed") — the eternal developer prayer 🙏
-> Coffee.exe has been running for 3 years without a restart ☕
-> Currently teaching machines to think so I don't have to 🤖
-```
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════╗
-║   "First, solve the problem. Then, write the code."  ║
-║                              — John Johnson           ║
-╚══════════════════════════════════════════════════════╝
-```
-
-![Profile Views](https://komarev.com/ghpvc/?username=AJKakarot&color=00FF41&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
+2x Hackathon Winner 🏆 | Coffee-fueled coder ☕ | Gamer when the builds are passing 🎮 | Currently teaching machines to think so I don't have to 🤖
