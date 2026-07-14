@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace">
 <style>
-    .art  { fill:#bc8cff; font-size:6.2px; white-space:pre; }
+    .art  { fill:#c9d1d9; font-size:6.2px; white-space:pre; }
     .key  { fill:#3fb950; font-size:13px; font-weight:700; }
     .val  { fill:#c9d1d9; font-size:13px; }
     .acc  { fill:#58a6ff; font-size:13px; }
@@ -123,5 +123,9 @@
 <text x="448" y="472.5" class="key row" style="animation-delay:1.75s">Email</text>
 <text x="540" y="472.5" class="acc row" style="animation-delay:1.75s">gajeet031@gmail.com</text>
 <text x="0" y="596" class="row" style="animation-delay:1.92s"><tspan class="key">➜</tspan><tspan class="acc" dx="8">~</tspan><tspan class="val" dx="8">open to Full Stack AI Engineer / Backend SDE roles</tspan><tspan class="cur" dx="8">█</tspan></text>
+<<<<<<< HEAD
 <text x="946" y="596" class="mut" text-anchor="end">last updated 15 Jul 2026, 05:21 IST</text>
+=======
+<text x="946" y="596" class="mut" text-anchor="end">last updated 15 Jul 2026, 05:27 IST</text>
+>>>>>>> b50d0ef (Initial profile)
 </svg>
