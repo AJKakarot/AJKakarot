@@ -81,7 +81,7 @@ THEMES = {
     "accent": "#58a6ff",
     "warn": "#d29922",
 
-    "art": "#c9d1d9",   # Changed (Grey)
+    "art": "#c9d1d9" ,  # Dark  # Changed (Grey)
 
     "prompt": "#3fb950",
     "dot1": "#ff5f56",
@@ -100,7 +100,7 @@ THEMES = {
     "accent": "#0969da",
     "warn": "#9a6700",
 
-    "art": "#57606a",   # Changed
+    "art": "#57606a"   ,   # Changed
 
     "prompt": "#1a7f37",
     "dot1": "#ff5f56",
@@ -110,10 +110,10 @@ THEMES = {
 }
 
 W, H = 980, 620
-ART_X, ART_Y = 0, 86
-ART_CW = 3.9          # forced char width (textLength keeps this exact in any font)
+ART_X, ART_Y = 15, 86
+ART_CW = 3.2         # forced char width (textLength keeps this exact in any font)
 ART_LH = ART_CW * 1.72
-INFO_X, INFO_Y, INFO_LH = 448, 92, 17.5
+INFO_X, INFO_Y, INFO_LH = 430, 92, 17.5
 VAL_X = INFO_X + 92
 
 
