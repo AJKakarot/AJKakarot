@@ -23,7 +23,8 @@ from PIL import Image, ImageFilter, ImageOps
 from rembg import remove
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else "photo.jpg"
-COLS = 120
+COLS = 80
+target_ratio = 0.65  # width / height of the final ASCII portrait
 ASPECT = 1.60
 BUST = 0.85
 DETAIL = 2.8
@@ -33,7 +34,13 @@ RAMP = "@$B%8&WM#*oahkbdpqwmZO0QLCJUXYzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. " 
 
 def main():
     img = Image.open(SRC).rotate(-2, expand=True, fillcolor="white")
-    cut = remove(img)                    # cut the subject out of the background
+    cut = remove(
+    img,
+    alpha_matting=True,
+    alpha_matting_foreground_threshold=240,
+    alpha_matting_background_threshold=10,
+    alpha_matting_erode_size=8,
+    )                   # cut the subject out of the background
     rgba = np.asarray(cut)
     alpha = rgba[:, :, 3]
 
@@ -41,9 +48,19 @@ def main():
     x0, x1 = xs.min(), xs.max()
     y0 = ys.min()
     y1 = int(y0 + (ys.max() - y0) * BUST)               # head + torso only
-    pad = 20
-    box = (max(0, x0 - pad), max(0, y0 - pad),
-           min(rgba.shape[1], x1 + pad), min(rgba.shape[0], y1))
+    subject_w = x1 - x0
+    subject_h = y1 - y0
+
+    pad_x = int(subject_w * 0.18)
+    pad_top = int(subject_h * 0.12)
+    pad_bottom = int(subject_h * 0.08)
+
+    box = (
+    max(0, x0 - pad_x),
+    max(0, y0 - pad_top),
+    min(rgba.shape[1], x1 + pad_x),
+    min(rgba.shape[0], y1 + pad_bottom),
+    )
 
     cut = cut.crop(box)
     cut = ImageOps.fit(
