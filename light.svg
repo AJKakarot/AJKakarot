@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', Menlo, Consolas, monospace">
+<style>
+    .art  { fill:#57606a; font-size:6.2px; white-space:pre; }
+    .key  { fill:#1a7f37; font-size:13px; font-weight:700; }
+    .val  { fill:#1f2328; font-size:13px; }
+    .acc  { fill:#0969da; font-size:13px; }
+    .wrn  { fill:#9a6700; font-size:13px; }
+    .mut  { fill:#59636e; font-size:12px; }
+    .hdr  { fill:#0969da; font-size:15px; font-weight:700; }
+    .sec  { fill:#59636e; font-size:12px; letter-spacing:1px; }
+    .ttl  { fill:#59636e; font-size:12px; }
+    .row  { opacity:1; animation: fade .35s ease backwards; }
+    @keyframes fade { from { opacity:0; transform:translateY(3px); }
+                       to   { opacity:1; transform:translateY(0); } }
+    .cur  { fill:#1a7f37; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity:0; } }
+    .artline { opacity:1; animation: fade .3s ease backwards; }
+    </style>
+<rect x="1" y="1" width="978" height="618" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<path d="M1 13 a12 12 0 0 1 12 -12 h954 a12 12 0 0 1 12 12 v25 h-978 z" fill="#f6f8fa"/>
+<line x1="1" y1="38" x2="979" y2="38" stroke="#d0d7de"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="64" cy="20" r="6" fill="#27c93f"/>
+<text x="490.0" y="24" class="ttl" text-anchor="middle">AJKakarot — zsh — 90×26</text>
+<text x="15" y="66" class="row" style="animation-delay:.05s"><tspan class="key">➜</tspan><tspan class="acc" dx="8">~</tspan><tspan class="val" dx="8">neofetch --profile</tspan></text>
+<text x="15" y="124.5" class="art artline" xml:space="preserve" textLength="163.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.23s">                                               }ft?</text>
+<text x="15" y="130.0" class="art artline" xml:space="preserve" textLength="172.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.25s">                                         LvYCJbmOU@aOz</text>
+<text x="15" y="135.5" class="art artline" xml:space="preserve" textLength="188.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.26s">                                   }v+?[Y8**ookkkppk#aZx) :</text>
+<text x="15" y="141.0" class="art artline" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.27s">                                _?XB@8$BWdZ0OZZOZZOOZqhW#kU?</text>
+<text x="15" y="146.5" class="art artline" xml:space="preserve" textLength="204.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.28s">                             &quot;rJq8%hqmLXJmmmmOZOZwwmOmZZQp&amp;8dn|1</text>
+<text x="15" y="152.0" class="art artline" xml:space="preserve" textLength="208.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.29s">                          :;!UW$odm0UQ0LLwwmmZmZ0OmmwwwmQQ0Lp##Z!</text>
+<text x="15" y="157.6" class="art artline" xml:space="preserve" textLength="211.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.31s">                          `fq**wZmwCXObbqmmZZmmwm00wwqdpQObpmwdB%~</text>
+<text x="15" y="163.1" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.32s">                         ,b@MqmwmqOXZOJmwwdbwOwmqdQQOJJO0xvULwdw*B{ n</text>
+<text x="15" y="168.6" class="art artline" xml:space="preserve" textLength="224.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.33s">                        &gt;o$d0mwmqJ0pbZJQ0LXYUZqm0ZbYvxYJw0OZUU0dwh%dX!</text>
+<text x="15" y="174.1" class="art artline" xml:space="preserve" textLength="227.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.34s">                       {%%w0ZCmp0nwwmwmOYULOZqqwO0w0cdbZmqZqdqc0pmZ&amp;@C,</text>
+<text x="15" y="179.6" class="art artline" xml:space="preserve" textLength="227.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.35s">                     l,BWOwqmJZwUUdOOZwCuJqk**dp*M#knwdqOmOOmmwQwZ0m#B{</text>
+<text x="15" y="185.1" class="art artline" xml:space="preserve" textLength="230.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.37s">                    &quot;.bBqwQUYmqOJC0mmpda*hOCYtL&amp;Qf|qqudwZmZOZmw0QZZ0m&amp;M?</text>
+<text x="15" y="190.6" class="art artline" xml:space="preserve" textLength="233.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.38s">                    &#x27;J@pwZJL0wL0OqQU0kkY-,. ,nQ[ !co#bZwmOmmwZZmOmZmqwWh+</text>
+<text x="15" y="196.1" class="art artline" xml:space="preserve" textLength="233.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.39s">                    )@*0ZmwZmwQJCqwqhLhbuxuC*O(t0pU[&quot;c&amp;#adQQ0mmZOZOZwkU&quot;l</text>
+<text x="15" y="201.6" class="art artline" xml:space="preserve" textLength="236.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.40s">                  II$8mO00OOZm0YLa0zQCnzvcj??-}{_;&quot;l!&quot;-ZW$#bqqZOOwwOOkbwQl</text>
+<text x="15" y="207.1" class="art artline" xml:space="preserve" textLength="240.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.41s">                   &gt;*MZOQZZOmOZ0oO&lt;;  l~I,&quot;^,^&#x27;I?(|){{+,&gt;}1vhohkkwZOmQd&amp;@f^</text>
+<text x="15" y="212.6" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.43s">                    1@pmOOZmOm#MC-;~jh@@%bJJrr|~^l}[1||(?&gt;l:l/UOddamQwoOpM&#x27;_</text>
+<text x="15" y="218.1" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.44s">                    )@km00ZOwWo?:lX8@Mwqa8@@B@8%q;,~-?+I`:III,,:I&#x27;U&amp;cCQ&lt;0}&quot;l</text>
+<text x="15" y="223.6" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.45s">                    ~%amZmOZMk+~}bd/l`  `&lt;[uCw*a8[ ,II&#x27;&gt;nQLz)([-&quot;,QBCmXm@[?&quot;</text>
+<text x="15" y="229.1" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.46s">                    &#x27;rMbmO0qW]+{xj&quot;^,:;&quot;:,^^,i_?niI!I&#x27;.#@@$@@@@%n /bQYCW@{:i</text>
+<text x="15" y="234.6" class="art artline" xml:space="preserve" textLength="240.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.47s">                      n$pLOM0~|t1&gt;!&gt;uUOdwkLur[[?i_&lt;l&lt;!_LzvcXzzCZ$Q v&amp;ZhBY,&lt;</text>
+<text x="15" y="240.1" class="art artline" xml:space="preserve" textLength="240.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.49s">                      ;Wh0Z&amp;u-/{_l~Zp_0@*@f:/[_zx||){cxi:       &gt;Q)!W*Mz&#x27;I{</text>
+<text x="15" y="245.6" class="art artline" xml:space="preserve" textLength="236.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.50s">                       Q#mwWx])}1)(j|+{x)t~{(fn0x)({}Of!/YJJzj?Ii!&lt;,ZWf` &lt;</text>
+<text x="15" y="251.1" class="art artline" xml:space="preserve" textLength="230.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.51s">                     i+J@Mh8n](xuuuj/t[&lt;&lt;&lt;(jujj}-xY/[YC+c@M@*(m/,?&quot;^kX &#x27;</text>
+<text x="15" y="256.6" class="art artline" xml:space="preserve" textLength="227.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.52s">                    `))[fud@f}juf){}))tnuxt(}_+twJ(--?Cf&lt;?fZnlfW]!!I0;.</text>
+<text x="15" y="262.1" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.53s">                   .&gt;`:&gt;&quot; uBttnt)][1{[}}}[--&gt;!Xu{l,`&#x27;`)Z{-I:&lt;}[_1-ll]</text>
+<text x="15" y="267.6" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.55s">                   `l&#x27;tii`uMfrx(}-_]?-+_+~_&gt;&#x27;/z jU/,^?+u}{ft1]}1/j~.&#x27;</text>
+<text x="15" y="273.1" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.56s">                   &gt;I&gt;c&gt;l?Uwunj{?_[[-_&lt;i!!i&gt;&lt;_}?ti[~(m-?l&gt;}1|/(|fu! `</text>
+<text x="15" y="278.6" class="art artline" xml:space="preserve" textLength="224.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.57s">                   l}fj^&#x27;_{qvr/[?_[?+&lt;iIi~--}{{f|i,;-(}-:&quot;~--}[1)/,_v,</text>
+<text x="15" y="284.1" class="art artline" xml:space="preserve" textLength="224.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.58s">                    }YrI&quot;&gt;_mzr|}???_+&gt;!?)[11)?-_+&gt;)-!vv(}&gt;I&lt;-__](}.&gt;/I</text>
+<text x="15" y="289.6" class="art artline" xml:space="preserve" textLength="224.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.59s">                    ^(n|ft}zXf)}]-_~+~&gt;_[|&lt;&gt;_-[)1)?_?-]jr(+i&lt;_?])~ [(:</text>
+<text x="15" y="295.2" class="art artline" xml:space="preserve" textLength="224.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.61s">                     ^-uj&gt;~fzt1??]_+_~lI{zYLZqOQuCLJnx{il{([i_?})&quot;;)}!</text>
+<text x="15" y="300.7" class="art artline" xml:space="preserve" textLength="224.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.62s">                      &#x27;{1]!:xu|]-]+-+&gt;i&lt;&lt;l&gt;~&lt;&gt;&lt;i&gt;-[[|X00x+I)_~?}- +(j;</text>
+<text x="15" y="306.2" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.63s">                        &quot;&quot;&#x27; +Ct?___~~~~--_+_+&gt;I;-]]}-&gt;~(u{l+-?[[I^fx(</text>
+<text x="15" y="311.7" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.64s">  Jj{+__                   `!jn]-?_-_~?]-?-~~&gt;i!&gt;-[+_&lt;&gt;_]}]&lt;-?{[.?n)^</text>
+<text x="15" y="317.2" class="art artline" xml:space="preserve" textLength="217.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.65s">  amZLYx)i                .,|fx[+--_-[1}__-_&lt;&gt;&lt;+___~&lt;&gt;_??[[___)&gt;,vx.</text>
+<text x="15" y="322.7" class="art artline" xml:space="preserve" textLength="214.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.67s">  ZJLLQ00v[  _]}- -}[I    jU)cQu-~&lt;+}{{|}+~~?[?+&lt;?{_{?_-_-|}--]`:1&lt;</text>
+<text x="15" y="328.2" class="art artline" xml:space="preserve" textLength="204.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.68s">  OCQLCCQ0UxfYZOXvYOUrjj]}&amp;k&lt;&gt;{U0u?~&gt;l-f/[[[[-&lt;::++&gt;}/}_-?|)]];.</text>
+<text x="15" y="333.7" class="art artline" xml:space="preserve" textLength="201.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.69s">  0LQLQQQQQQ0000QLOQCZqpO0Md~&lt;:&quot;)wwUr/1)((}-&gt;,:i&lt;1_;&gt;{f{)v(_~I&#x27;</text>
+<text x="15" y="339.2" class="art artline" xml:space="preserve" textLength="195.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.70s"> 0Q00LQQQLQQU00LLL0CQQCL0Qab~&lt;&lt;!&#x27;[OUzJqhqJx(/_}{|{-+!l1jJ|l^.</text>
+<text x="15" y="344.7" class="art artline" xml:space="preserve" textLength="188.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.71s"> 00OOLLQLQQOLLOO0QQL0QQ0OObW_:i&lt;I&quot;tQj1_{LM&amp;odO0Xznuznuzx}+^</text>
+<text x="15" y="350.2" class="art artline" xml:space="preserve" textLength="192.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.73s"> bCQ0QQOQ00QQQ00QQ0Q0QQ0OZw%j`&gt;&lt;&gt;IifUu)i&#x27;ixpMWM*#WokkOxuQU][</text>
+<text x="15" y="355.7" class="art artline" xml:space="preserve" textLength="195.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.74s"> OQ00QL000Q0QOQOLQ00OQ00Omm*h`I&gt;~il?vx|}l^&#x27;:-/nrxtnYLYzCC?La&gt;</text>
+<text x="15" y="361.2" class="art artline" xml:space="preserve" textLength="198.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.75s"> JQ0OQLQOQQ0COQ000OO0Q00OmOw@) !&lt;!I&lt;)t|[++&gt;l:,&quot;,I+(Jmujt-jopX.</text>
+<text x="15" y="366.7" class="art artline" xml:space="preserve" textLength="198.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.76s"> Y0OO0L0OQQ0Lm0JQQOZQQ0ZZZm0oW,`i&gt;!&gt;{1t{+&gt;&lt;&gt;&gt;~&gt;!&lt;jwO/-_&gt;?*qwO;</text>
+<text x="15" y="372.2" class="art artline" xml:space="preserve" textLength="204.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.77s"> 0Q00OQ0OQQOLZOCQQOZ0Q0OZZm0Z$Z &quot;&lt;ii?})|}_+lI!i&gt;{QQ+!i_~pMQOq?!&quot;</text>
+<text x="15" y="377.7" class="art artline" xml:space="preserve" textLength="208.0" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.79s"> OLOQ0QQOQQ0QZOL0L0mOQ0OZZmOQq@t I&gt;i&gt;-][{{?&lt;!+1(vC[l&lt;-?f@kQOq{nc[</text>
+<text x="15" y="383.2" class="art artline" xml:space="preserve" textLength="214.4" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.80s"> JOZLO000QQ0QZ0CO0QwOQ0OOmmZQ0a$i.!&lt;&gt;+]_+?[{)f||z{&gt;~-{rjOh00OjUOUzc</text>
+<text x="15" y="388.7" class="art artline" xml:space="preserve" textLength="220.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.81s"> Q0OQ0OO0L0OQZ0L0QQm0QLOOZmOOQ0&amp;a`^!&gt;~--_&lt;i~-+?n(&lt;&gt;-}|O[~pq0LUL0LCQ0Q</text>
+<text x="15" y="394.2" class="art artline" xml:space="preserve" textLength="227.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.82s"> 00O0L0OQQ000m0QO0COmLQO0OmmZCQw@O `!+-?-&lt;li&lt;]x|i![{{cU:_WqQLQ0QLLQLQQQ</text>
+<text x="15" y="399.7" class="art artline" xml:space="preserve" textLength="233.6" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.83s"> 000OL0OQ000QZQ0O0C0qCCZ0QZwQ0Zw*@J ^&gt;+?-~-[1t1&gt;i{/}fc{&#x27;qMZLLO0QQCLJC0000</text>
+<text x="15" y="405.2" class="art artline" xml:space="preserve" textLength="236.8" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.85s"> 000OQ00QQQOQZQ0000Lw0CO0OwOQ0OwqY%Q ,&lt;+?}[{{_l&gt;)j}]n(&#x27;r$qOJ0O000LQQL0000Q</text>
+<text x="15" y="410.7" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.86s"> OL0OQ0O0Q00Qm0L000COZL0ZmOLmOQqQ[Z@} &lt;_]??]&gt;:&gt;(j]+[[&#x27;-%bO0CZO000QO0QCLQOO00</text>
+<text x="15" y="416.2" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.87s"> 0LZOC0OOQQOQm0L0QO0QZ0Z0LQO0m0OmZb$L.!~__~&lt;I&gt;t(&gt;!i!,}8oZ0CQwO0000Q0000QQL0Q</text>
+<text x="15" y="421.7" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.88s"> qLOOQ000LQ0QOZL000OQ00QL00OL0wL0Om@k &quot;l!i&lt;i&gt;t{:&quot;!&lt;In@oZQQOCwOOO0Q0ZQQOZOOQL</text>
+<text x="15" y="427.2" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.89s">u$m0mQ00O0Q0Q0wQQ0Q00CZZLOZQQQZ0LmOk%}Il^`:`ll&quot;?j(tZWb0QCmwQOw00OQ0Z0QQO00O0</text>
+<text x="15" y="432.8" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.91s">r@p0mQQ00OL0QQw0QO0O0LQm0QmQQQ0ZQLwwWa~(}&gt;i~[|rf_/#&amp;wOOCOOQO0mO00Q0OQ000QO00</text>
+<text x="15" y="438.3" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.92s">j@pQwO00L00QQLZmL00O0QQOZCmOQQQZZLQZb@u -}(t[~  uBa00QQO0L0Q0qZ00QOO0OQ00000</text>
+<text x="15" y="443.8" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.93s">c@qLmZQO0Q000QQwQLO0Q0QQZCOmQQLQZ00QO#$&lt; `;!&quot; &lt;a@qQCmZQQ00000OOO00O00000O000</text>
+<text x="15" y="449.3" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.94s">0@wLZZQ0OQ0OQOCmOL0Q000QZQLw0LLQOZQLLZ$O &quot;i&quot; rBWmmOQZ0QOQ0000Q0OOQQ000Q00QOO</text>
+<text x="15" y="454.8" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.95s">0@ZQ0ZOQ00Q000L0wLQO00QQOOCZmLQQQmOQmd$W`. &gt;w@k000QQ0OQO000QQO00ZOO0QO00O000</text>
+<text x="15" y="460.3" class="art artline" xml:space="preserve" textLength="243.2" lengthAdjust="spacingAndGlyphs" style="animation-delay:0.97s">m@ZQOQZQ0QQ000QLmOLQQQOO0O0QmQQQQOZaY-h$&gt;.t%%mQQ0Q00Q0OQ00000O0QQQ0OO0Q000O0</text>
+<text x="430" y="92.0" class="hdr row" style="animation-delay:0.35s">Ajeet Gupta</text>
+<line x1="430" y1="101.5" x2="940" y2="101.5" stroke="#d0d7de" class="row" style="animation-delay:0.42s"/>
+<text x="430" y="117.5" class="sec row" style="animation-delay:0.49s">~/experience</text>
+<text x="430" y="135.0" class="key row" style="animation-delay:0.56s">Intern</text>
+<text x="522" y="135.0" class="val row" style="animation-delay:0.56s">React Developer @ TMRW</text>
+<text x="430" y="152.5" class="key row" style="animation-delay:0.63s">Intern</text>
+<text x="522" y="152.5" class="val row" style="animation-delay:0.63s">Cloud Computing @ IBM</text>
+<text x="430" y="170.0" class="key row" style="animation-delay:0.70s">Intern</text>
+<text x="522" y="170.0" class="val row" style="animation-delay:0.70s">Development @ Modulus</text>
+<text x="430" y="187.5" class="key row" style="animation-delay:0.77s">Community</text>
+<text x="522" y="187.5" class="acc row" style="animation-delay:0.77s">GeeksforGeeks Campus Mantri</text>
+<text x="430" y="215.0" class="sec row" style="animation-delay:0.84s">~/skills</text>
+<text x="430" y="232.5" class="key row" style="animation-delay:0.91s">Backend</text>
+<text x="522" y="232.5" class="val row" style="animation-delay:0.91s">Java • Spring Boot • Node.js • Express</text>
+<text x="430" y="250.0" class="key row" style="animation-delay:0.98s">AI</text>
+<text x="522" y="250.0" class="val row" style="animation-delay:0.98s">LangChain • LangGraph • Agentic AI • RAG</text>
+<text x="430" y="267.5" class="key row" style="animation-delay:1.05s">Cloud</text>
+<text x="522" y="267.5" class="val row" style="animation-delay:1.05s">AWS • Docker • PostgreSQL • Redis</text>
+<text x="430" y="295.0" class="sec row" style="animation-delay:1.12s">~/projects</text>
+<text x="430" y="312.5" class="key row" style="animation-delay:1.19s">Projects</text>
+<text x="522" y="312.5" class="wrn row" style="animation-delay:1.19s">Wellory • AI-Coach • AI-Interview • NextHire</text>
+<text x="430" y="340.0" class="sec row" style="animation-delay:1.26s">~/highlights</text>
+<text x="430" y="357.5" class="key row" style="animation-delay:1.33s">Coding</text>
+<text x="522" y="357.5" class="val row" style="animation-delay:1.33s">365 Days of Code • 1000+ DSA</text>
+<text x="430" y="375.0" class="key row" style="animation-delay:1.40s">Hackathons</text>
+<text x="522" y="375.0" class="val row" style="animation-delay:1.40s">2× Hackathon Winner</text>
+<text x="430" y="402.5" class="sec row" style="animation-delay:1.47s">~/connect</text>
+<text x="430" y="420.0" class="key row" style="animation-delay:1.54s">GitHub</text>
+<text x="522" y="420.0" class="acc row" style="animation-delay:1.54s">github.com/AJKakarot</text>
+<text x="430" y="437.5" class="key row" style="animation-delay:1.61s">LinkedIn</text>
+<text x="522" y="437.5" class="acc row" style="animation-delay:1.61s">linkedin.com/in/ajeet-gupta-99aa6b281</text>
+<text x="430" y="455.0" class="key row" style="animation-delay:1.68s">LeetCode</text>
+<text x="522" y="455.0" class="acc row" style="animation-delay:1.68s">leetcode.com/u/ajeetgupta04</text>
+<text x="430" y="472.5" class="key row" style="animation-delay:1.75s">Email</text>
+<text x="522" y="472.5" class="acc row" style="animation-delay:1.75s">gajeet031@gmail.com</text>
+<text x="15" y="596" class="row" style="animation-delay:1.92s"><tspan class="key">➜</tspan><tspan class="acc" dx="8">~</tspan><tspan class="val" dx="8">open to Full Stack AI Engineer / Backend SDE roles</tspan><tspan class="cur" dx="8">█</tspan></text>
+<text x="946" y="596" class="mut" text-anchor="end">last updated 03 Sep 2026, 09:34 IST</text>
+</svg>
