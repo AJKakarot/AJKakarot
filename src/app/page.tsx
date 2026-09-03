@@ -11,12 +11,12 @@ import Markdown from "react-markdown";
 const BLUR_FADE_DELAY = 0.04;
 
 const HERO_TAGLINE =
-  "Product engineer building GenAI systems and full-stack platforms that scale from MVP to millions.";
+  "Full-stack developer building production SaaS, microservices, and AI-powered platforms.";
 
 const HERO_STATS: { value: string; label: string }[] = [
   { value: "10+", label: "Shipped products" },
-  { value: "2.5k+", label: "Paying customers" },
-  { value: "10×", label: "Hackathon wins / finals" },
+  { value: "1600+", label: "DSA problems solved" },
+  { value: "5×", label: "Hackathon wins / finals" },
 ];
 
 function SectionLabel({ number, title }: { number: string; title: string }) {
@@ -261,9 +261,9 @@ export default function Page() {
           <div className="flex flex-col gap-4">
             <SectionLabel number="07" title="Hackathons" />
             <p className="max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
-              20+ national competitions, 10 wins or finals. A crash course in
-              shipping under pressure, making sharp tradeoffs, and finishing
-              before the sun comes up.
+              Five hackathon wins, each a crash course in shipping under
+              pressure, making sharp tradeoffs, and finishing before the sun
+              comes up.
             </p>
           </div>
         </BlurFade>
@@ -293,8 +293,8 @@ export default function Page() {
           <div className="flex flex-col gap-4">
             <SectionLabel number="08" title="Say hello" />
             <p className="max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground">
-              Open to interesting work, sharper ideas, and unsolicited memes.
-              I read everything that isn&apos;t a pitch.
+              Open to interesting work, ambitious ideas, and building useful
+              products with good people.
             </p>
             <div className="mt-2 flex flex-col gap-px border-t border-foreground/10 sm:mt-4">
               <ContactRow
@@ -303,14 +303,14 @@ export default function Page() {
                 href={DATA.contact.social.LinkedIn.url}
               />
               <ContactRow
-                label="Twitter / X"
+                label="X / Twitter"
                 hint="Shorter thoughts"
                 href={DATA.contact.social.X.url}
               />
               <ContactRow
-                label="Book a call"
-                hint="Cal.com, 30 min"
-                href={DATA.contact.social.calendar.url}
+                label="WhatsApp"
+                hint="Message me"
+                href={DATA.contact.social.WhatsApp.url}
               />
               <ContactRow
                 label="Email"
