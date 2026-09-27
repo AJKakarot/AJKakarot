@@ -1,9 +1,15 @@
-<p align="center">
-  <img src="./dark.svg#gh-dark-mode-only" width="100%">
-  <img src="./light.svg#gh-light-mode-only" width="100%">
-</p>
+# Hi, I'm Ajeet Gupta 👋
 
+**Full Stack AI Engineer | Backend Developer**
 
+Building scalable applications and AI-powered products with **Java, Spring Boot, Node.js, Next.js, RAG & Agentic AI**.
 
+### 🛠️ Tech
+Java • C++ • TypeScript • Spring Boot • Node.js • React • Next.js • PostgreSQL • Redis • Docker • AWS • LangChain • LangGraph
 
+### 🚀 Projects
+NextHire • Wellify • SehatLink • Cashly • Limitra
 
+🏆 2× Hackathon Winner • 365 Days of Code • 1000+ DSA
+
+[GitHub](https://github.com/AJKakarot) • [LinkedIn](https://linkedin.com/in/ajeet-gupta-99aa6b281) • [LeetCode](https://leetcode.com/u/ajeetgupta04/)
