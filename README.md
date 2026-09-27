@@ -13,4 +13,4 @@ NextHire • Wellify • SehatLink • Cashly • Limitra
 🏆 5× Hackathon Winner • 365 Days of Code • 1000+ DSA • 1681 Contest rating(Leetcode)
 
 ### 🔗 Connect
-• [LinkedIn](https://linkedin.com/in/ajeet-gupta-99aa6b281) • [LeetCode](https://leetcode.com/u/ajeetgupta04/) • [GeeksforGeeks](https://www.geeksforgeeks.org/profile/ajeetgupta4?tab=activity)
+• [LeetCode](https://leetcode.com/u/ajeetgupta04/) • [GeeksforGeeks](https://www.geeksforgeeks.org/profile/ajeetgupta4?tab=activity)
